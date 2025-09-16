@@ -38,28 +38,37 @@ export function HeroSection() {
   }, []);
   const router = useRouter();
 
+   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+  const videoUrls = [
+    "https://ssa.kods.in/wp-content/uploads/2025/09/VID-20241111-WA0020.mp4",
+    "https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028861/VID-20250916-WA0002_ysfdae.mp4",
+    "https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028857/VID-20250916-WA0004_m747wn.mp4"
+  ];
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((prevIndex) =>
+      prevIndex === videoUrls.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
   return (
     <section className="relative min-h-[640px] w-full flex items-center justify-center overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full">
-        <video
-          ref={videoRef}
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="w-full h-full object-cover"
-          // poster="/modern-school-students.png" // Fallback image
-        >
-          <source src="/VID-20241117-WA0121.mp4" type="video/mp4" />
-          {/* <source src="/school-hero-video.webm" type="video/webm" /> */}
-          {/* Fallback to image if video doesn't load */}
-          {/* <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/modern-school-students.png')" }}
-          /> */}
-        </video>
-      </div>
+      <video
+        ref={videoRef}
+        src={videoUrls[currentVideoIndex]}
+        autoPlay
+        muted
+        playsInline
+        className="w-full h-full object-cover"
+        onEnded={handleVideoEnd}
+        poster="https://ssa.kods.in/wp-content/uploads/2025/09/fallback-image.jpg"
+      >
+        Your browser does not support the video tag.
+      </video>
+    </div>
       
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40" />
