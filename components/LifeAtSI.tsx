@@ -105,7 +105,7 @@ export function LifeAtSI() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8 lg:mb-10">
           <div className="relative group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]">
             <img 
-              src="/school-boarding-facilities.jpg" 
+              src="/DSC05056-scaled-rbnalqip8w13djxyopa38wb8hunekdunokg38ov4c8.webp" 
               alt="Boarding facilities at Sri Sri Academy" 
               className="w-full h-48 sm:h-56 lg:h-60 object-cover transition-transform duration-300 group-hover:scale-105" 
             />
@@ -118,7 +118,7 @@ export function LifeAtSI() {
           
           <div className="relative group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]">
             <img 
-              src="/students-in-classroom-curriculum.jpg" 
+              src="/laboratories-classroom.jpg" 
               alt="Curriculum and classroom learning" 
               className="w-full h-48 sm:h-56 lg:h-60 object-cover transition-transform duration-300 group-hover:scale-105" 
             />
@@ -131,7 +131,7 @@ export function LifeAtSI() {
           
           <div className="relative group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02] sm:col-span-2 lg:col-span-1">
             <img 
-              src="/ai-technology-in-classroom.jpg" 
+              src="/DSC_2255-1-scaled-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpg" 
               alt="AI technology in education" 
               className="w-full h-48 sm:h-56 lg:h-60 object-cover transition-transform duration-300 group-hover:scale-105" 
             />

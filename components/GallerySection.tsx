@@ -16,7 +16,9 @@ export default function GallerySection() {
     "IMG_0175-scaled-raarvqhkam480d245ljzf4xgheov35uwou9fxxn0qw.jpg",
     "IMG_20240904_085003-scaled-raarvolvwy1nd54ugkqqa5ejamy4nrng0kygzdpt3c.jpg",
     "PXL_20240825_122538212-scaled-raarvolvwy1nd54ugkqqa5ejamy4nrng0kygzdpt3c.jpg",
-    "WhatsApp-Image-2024-11-13-at-1.40.34-PM-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpeg"
+    "WhatsApp-Image-2024-11-13-at-1.40.34-PM-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpeg",
+    "DSC_2255-1-scaled-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpg",
+    "/Sri-Sri-Ravi-Shankar.jpg",
   ];
 
   // Typing animation for "Unique"

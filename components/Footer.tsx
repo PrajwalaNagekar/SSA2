@@ -15,10 +15,10 @@ const news = [
 ];
 
 const socialIcons = [
-  { icon: "facebook", href: "#", color: "bg-[#442fc3]" },
-  { icon: "instagram", href: "#", color: "bg-[#442fc3]" },
-  { icon: "x", href: "#", color: "bg-[#442fc3]" },
-  { icon: "linkedin", href: "#", color: "bg-[#442fc3]" }
+  { icon: "facebook", href: "https://www.facebook.com/srisriacademysilliguri/", color: "bg-[#442fc3]" },
+  { icon: "instagram", href: "https://www.instagram.com/srisriacademysiliguri/", color: "bg-[#442fc3]" },
+  // { icon: "x", href: "#", color: "bg-[#442fc3]" },
+  { icon: "linkedin", href: "https://www.linkedin.com/in/srisriacademysiliguri/", color: "bg-[#442fc3]" }
 ];
 
 export function Footer() {

@@ -49,9 +49,9 @@ export function HeroSection() {
           loop
           playsInline
           className="w-full h-full object-cover"
-          poster="/modern-school-students.png" // Fallback image
+          // poster="/modern-school-students.png" // Fallback image
         >
-          <source src="/VID-20241111-WA0020.mp4" type="video/mp4" />
+          <source src="/VID-20241117-WA0121.mp4" type="video/mp4" />
           {/* <source src="/school-hero-video.webm" type="video/webm" /> */}
           {/* Fallback to image if video doesn't load */}
           <div

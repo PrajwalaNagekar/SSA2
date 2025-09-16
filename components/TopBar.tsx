@@ -9,7 +9,7 @@ export function TopBar() {
       <div className="bg-[#2f2e8c] text-white py-2 px-3">
         <div className="container mx-auto flex justify-center items-center text-center">
           <p className="font-bold text-xs sm:text-sm md:text-base leading-snug">
-            Grades 1-9 | PG Labs |{" "}
+            Play School to Grade 12 | PG Labs |{" "}
             <span
               className="underline cursor-pointer hover:text-pink-300 transition"
               onClick={() => setShowModal(true)}

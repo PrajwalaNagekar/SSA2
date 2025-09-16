@@ -27,9 +27,9 @@ export default function ConnectedGaralley() {
   ];
 
   // Demo video and form data
-  const videos = [
-    { src: "/sample-video.mp4", title: "Sample Video" }
-  ];
+  // const videos = [
+  //   { src: "/sample-video.mp4", title: "Sample Video" }
+  // ];
 
   return (
     <section className="w-full py-8 sm:py-12 lg:py-16 bg-white">
@@ -65,7 +65,7 @@ export default function ConnectedGaralley() {
           ))}
 
           {/* Video Section */}
-          {videos.map((video, i) => (
+          {/* {videos.map((video, i) => (
             <div
               key={`vid-${i}`}
               className="overflow-hidden rounded-lg bg-gray-100 shadow-sm h-64 sm:h-72 md:h-80 w-full flex items-center justify-center"
@@ -76,10 +76,10 @@ export default function ConnectedGaralley() {
                 className="object-cover w-full h-full"
               />
             </div>
-          ))}
+          ))} */}
 
           {/* File Section */}
-          <div className="overflow-hidden rounded-lg bg-gray-100 shadow-sm h-64 sm:h-72 md:h-80 w-full flex items-center justify-center">
+          {/* <div className="overflow-hidden rounded-lg bg-gray-100 shadow-sm h-64 sm:h-72 md:h-80 w-full flex items-center justify-center">
             <a
               href="/sample-file.pdf"
               download
@@ -87,10 +87,10 @@ export default function ConnectedGaralley() {
             >
               Download File
             </a>
-          </div>
+          </div> */}
 
           {/* Form Section */}
-          <div className="overflow-hidden rounded-lg bg-gray-100 shadow-sm h-64 sm:h-72 md:h-80 w-full flex items-center justify-center">
+          {/* <div className="overflow-hidden rounded-lg bg-gray-100 shadow-sm h-64 sm:h-72 md:h-80 w-full flex items-center justify-center">
             <form className="w-full px-4">
               <label className="block mb-2 text-sm font-medium text-gray-700">
                 Name
@@ -107,7 +107,7 @@ export default function ConnectedGaralley() {
                 Submit
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
 
         {/* Show More Button for Mobile */}
