@@ -54,10 +54,10 @@ export function HeroSection() {
           <source src="/VID-20241117-WA0121.mp4" type="video/mp4" />
           {/* <source src="/school-hero-video.webm" type="video/webm" /> */}
           {/* Fallback to image if video doesn't load */}
-          <div
+          {/* <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: "url('/modern-school-students.png')" }}
-          />
+          /> */}
         </video>
       </div>
       
