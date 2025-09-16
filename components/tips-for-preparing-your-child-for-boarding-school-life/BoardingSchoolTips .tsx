@@ -85,14 +85,16 @@ const BoardingSchoolTips = () => (
       </div>
       <div className="mb-6">
         <iframe
-          width="100%"
-          height="180"
-          src="https://www.youtube.com/embed/VIDEO_ID?rel=0"
-          title="Boarding School Annual Function"
-          frameBorder="0"
-          allowFullScreen
-          className="rounded-md"
-        ></iframe>
+  width="100%"
+  height="315"
+  src="https://www.youtube.com/embed/7clB1HxUTCI"
+  title="YouTube video"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+  className="rounded"
+/>
+
       </div>
       <div>
         <h4 className="font-semibold text-md mb-2">Category</h4>

@@ -67,17 +67,18 @@ export default function AdmissionsHero() {
             <div className="relative rounded-xl md:rounded-2xl overflow-hidden bg-gray-100 shadow-md md:shadow-lg aspect-video flex items-center justify-center group border border-gray-200">
               {/* YouTube Video - Hidden initially */}
               <div className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="/SRI-SRI-ACADEMY_5.mp4"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                  className="w-full h-full"
-                ></iframe>
+               <video
+  src="https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028914/VID-20250916-WA0007_t9ujoo.mp4"
+  width="100%"
+  height="100%"
+  muted
+  autoPlay
+  controls
+  playsInline
+  style={{ borderRadius: '1rem', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}
+  className="w-full h-full"
+/>
+
               </div>
               {/* Gradient Overlay - Visible initially */}
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 opacity-70 group-hover:opacity-0 transition-opacity duration-300"></div>

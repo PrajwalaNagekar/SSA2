@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const posts = [
   {
@@ -17,7 +18,6 @@ const posts = [
     excerpt: "Are you looking to prepare your child for boarding school? Well, there are a number of benefits of sending your...",
     href: "/tips-for-preparing-your-child-for-boarding-school-life"
   },
-  // Add the original two posts below
   {
     image: "/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
     title: "The Advantages of Boarding School for International Students",
@@ -40,21 +40,34 @@ const recentPosts = [
   {
     image: "/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
     title: "The Advantages of Boarding School for International Students",
-    href: "#"
+    href: "/the-advantages-of-boarding-school-for-international-students"
   },
   {
     image: "/top-5-boarding-school-in-west-bengal-1.webp",
     title: "Top 5 Boarding School In West Bengal",
-    href: "#"
+    href: "/top-5-boarding-school-in-west-bengal"
   },
   {
-    image: "/school-compare.webp",
+    image: "/difference-between-day-school-and-residential-school.webp",
     title: "7 Differences Between Day Schools and Residential Schools You Should Know",
-    href: "#"
+    href: "/7-differences-between-day-schools-and-residential-schools-you-should-know"
   }
 ];
 
+// Define which posts show for which tab
+const tabMapping = {
+  "All Posts": posts,
+  Academic: [],
+  Athletics: posts.filter(p => p.title === "Top 5 Boarding School In West Bengal"),
+  Blog: [],
+  "Campus Life": posts.filter(p => p.title === "7 Differences Between Day Schools and Residential Schools You Should Know"),
+  Events: posts.filter(p => p.title === "Tips for Preparing Your Child for Boarding School Life"),
+  NEWS: posts, // <<----- Now shows all posts under NEWS!
+};
+
 export default function BlogPageClone() {
+  const [selectedTab, setSelectedTab] = useState("All Posts");
+
   return (
     <div className="bg-white min-h-screen text-justify">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-10">
@@ -63,34 +76,42 @@ export default function BlogPageClone() {
           <div className="lg:col-span-2 space-y-10">
             {/* Tabs */}
             <div className="flex items-center gap-2 mb-4 flex-wrap">
-              <button className="bg-[#4f46e5] text-white px-3 py-1 text-xs rounded font-semibold">All Posts</button>
-              <button className="bg-gray-50 px-3 py-1 text-xs rounded text-gray-800 font-medium hover:bg-gray-200">Academic</button>
-              <button className="bg-gray-50 px-3 py-1 text-xs rounded text-gray-800 font-medium hover:bg-gray-200">Athletics</button>
-              <button className="bg-gray-50 px-3 py-1 text-xs rounded text-gray-800 font-medium hover:bg-gray-200">Blog</button>
-              <button className="bg-gray-50 px-3 py-1 text-xs rounded text-gray-800 font-medium hover:bg-gray-200">Campus Life</button>
-              <button className="bg-gray-50 px-3 py-1 text-xs rounded text-gray-800 font-medium hover:bg-gray-200">Events</button>
-              <button className="bg-gray-50 px-3 py-1 text-xs rounded text-gray-800 font-medium hover:bg-gray-200">NEWS</button>
+              {["All Posts", "Academic", "Athletics", "Blog", "Campus Life", "Events", "NEWS"].map(tab => (
+                <button
+                  key={tab}
+                  className={`px-3 py-1 text-xs rounded font-semibold ${
+                    selectedTab === tab
+                      ? "bg-[#4f46e5] text-white"
+                      : "bg-gray-50 text-gray-800 font-medium hover:bg-gray-200"
+                  }`}
+                  onClick={() => setSelectedTab(tab)}
+                >
+                  {tab}
+                </button>
+              ))}
             </div>
-            {/* Blog Posts */}
-            {posts.map((post, idx) => (
-              <div key={idx} className="bg-white rounded-lg shadow-sm">
-                <img src={post.image} alt={post.title} className="h-56 w-full object-cover rounded-t-lg" />
-                <div className="px-4 py-3">
-                  <h2 className="text-lg font-bold text-gray-900">{post.title}</h2>
-                  <div className="flex items-center gap-2 text-xs text-gray-600 mt-1">
-                    <span>{post.date}</span>
-                    <span>/</span>
-                    <span>{post.comments}</span>
+            {/* Blog Posts for Selected Tab */}
+            {tabMapping[selectedTab].length === 0
+              ? <div className="text-gray-500 text-sm">No posts available.</div>
+              : tabMapping[selectedTab].map((post, idx) => (
+                  <div key={idx} className="bg-white rounded-lg shadow-sm">
+                    <img src={post.image} alt={post.title} className="h-56 w-full object-cover rounded-t-lg" />
+                    <div className="px-4 py-3">
+                      <h2 className="text-lg font-bold text-gray-900">{post.title}</h2>
+                      <div className="flex items-center gap-2 text-xs text-gray-600 mt-1">
+                        <span>{post.date}</span>
+                        <span>/</span>
+                        <span>{post.comments}</span>
+                      </div>
+                      <p className="text-gray-600 mt-2 text-sm">{post.excerpt}</p>
+                      <a href={post.href} className="text-indigo-600 hover:underline text-sm font-semibold mt-2 block">
+                        Read More
+                      </a>
+                    </div>
                   </div>
-                  <p className="text-gray-600 mt-2 text-sm">{post.excerpt}</p>
-                  <a href={post.href} className="text-indigo-600 hover:underline text-sm font-semibold mt-2 block">
-                    Read More
-                  </a>
-                </div>
-              </div>
-            ))}
+                ))
+            }
           </div>
-
           {/* Sidebar */}
           <aside>
             <div className="sticky top-10">
@@ -114,16 +135,17 @@ export default function BlogPageClone() {
               </div>
               {/* Video Embed */}
               <div className="bg-white rounded-lg border border-gray-200 shadow-sm px-4 py-5 mb-6">
-                <iframe
-                  width="100%"
-                  height="60"
-                  src="https://www.youtube.com/embed/VIDEO_ID_HERE"
-                  title="YouTube video"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="rounded"
-                ></iframe>
+               <iframe
+  width="100%"
+  height="315"
+  src="https://www.youtube.com/embed/7clB1HxUTCI"
+  title="YouTube video"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+  className="rounded"
+/>
+
               </div>
               {/* Category */}
               <div className="bg-white rounded-lg border border-gray-200 shadow-sm px-4 py-5 mb-6">

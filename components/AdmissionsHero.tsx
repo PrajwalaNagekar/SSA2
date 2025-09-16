@@ -77,11 +77,14 @@ export default function AdmissionsHero() {
             >
               {/* Video: initially hidden by opacity, shows on hover */}
               <video
-                src="/SRI-SRI-ACADEMY_5.mp4"
+                src="https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028914/VID-20250916-WA0007_t9ujoo.mp4"
                 className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 muted
                 playsInline
+                autoPlay
+                loop
               />
+
 
               {/* Gradient Overlay */}
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 opacity-70 group-hover:opacity-0 transition-opacity duration-300"></div>

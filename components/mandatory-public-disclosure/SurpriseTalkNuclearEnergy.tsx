@@ -103,11 +103,12 @@ const ResponsiveSchoolUI = () => (
   height: '180px',       // Fixed height, or use percentage for responsiveness
   position: 'relative',
 }}>
+
   <iframe
     width="100%"
     height="100%"
     style={{ borderRadius: "20px" }}
-    src="/SRI-SRI-ACADEMY_5.mp4"
+     src="https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028914/VID-20250916-WA0007_t9ujoo.mp4"
     title="Video player"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
