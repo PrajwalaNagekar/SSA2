@@ -1,5 +1,5 @@
 export function BoardingFacilities() {
-  const bgImageUrl = "/DJI_20250829165910_0062_D_DL-scaled.jpg"; // Replace with your image
+  const bgImageUrl = "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DJI_20250829165910_0062_D_DL-scaled.jpg"; // Replace with your image
 
   return (
     <section className="relative min-h-[50vh] w-full flex items-center justify-center overflow-hidden text-justify">

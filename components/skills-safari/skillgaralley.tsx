@@ -3,27 +3,27 @@ import { useState, useEffect } from "react";
 
 export default function SkillGallerySection() {
   const images = [
-    "/DSC01342-scaled.webp",
-    "/DSC01426-scaled.webp",
-    "/DSC01243-scaled.webp",
-    "/DSC01333-scaled.webp",
-    "/DSC01336-scaled.webp",
-    "/DSC01346-scaled.webp",
-    "/DSC01432-scaled.webp",
-    "/IMG-20240720-WA0027-scaled.webp",
-    "/IMG-20240720-WA0039-scaled.webp",
-    "/PXL_20240720_050518957-scaled.webp",
-    "PXL_20240720_050720515.RESTORED.webp",
-    "/PXL_20241001_053154393-scaled.webp",
-    "/WhatsApp-Image-2024-05-11-at-1.05.38-PM.webp",
-    "/WhatsApp-Image-2024-05-11-at-2.48.07-PM-scaled.webp",
-    "/WhatsApp-Image-2024-05-11-at-12.37.37-PM-1-1.webp",
-    "/WhatsApp-Image-2024-05-11-at-12.37.56-PM.webp",
-    "/WhatsApp-Image-2024-05-11-at-12.38.27-PM.webp",
-    "/WhatsApp-Image-2024-05-11-at-12.51.51-PM-scaled.webp",
-    "/WhatsApp-Image-2024-10-08-at-4.46.18-PM-scaled.webp",
-    "/WhatsApp-Image-2024-10-08-at-4.46.20-PM-scaled.webp",
-    "/WhatsApp-Image-2024-10-08-at-4.46.21-PM-scaled.webp",  ];
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC01432-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC01426-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC01243-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC01333-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC01336-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC01346-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC01432-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG-20240720-WA0027-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG-20240720-WA0039-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/PXL_20240720_050518957-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/PXL_20240720_050720515.RESTORED.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/PXL_20240824_120403495-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-05-11-at-1.05.38-PM.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-05-11-at-2.48.07-PM-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-05-11-at-12.37.37-PM-1.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-05-11-at-12.37.56-PM.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-05-11-at-12.38.27-PM.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-05-11-at-12.51.51-PM-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-10-08-at-4.46.18-PM-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-10-08-at-4.46.20-PM-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-10-08-at-4.46.21-PM-scaled.webp",  ];
 
   // Typing animation for "Unique"
 

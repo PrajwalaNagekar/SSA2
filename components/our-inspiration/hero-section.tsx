@@ -5,7 +5,7 @@ export function HeroSection() {
     <section className="relative h-[50vh] sm:h-[55vh] md:h-[60vh] bg-gradient-to-r from-orange-200 to-orange-300 overflow-hidden">
       <div className="absolute inset-0">
         <Image 
-          src="/Sri-Sri-Ravi-Shankar_MV_Podcast_Wordpress.png" 
+          src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Ravi-Shankar_MV_Podcast_Wordpress.png" 
           alt="Gurudev Sri Sri Ravi Shankar" 
           fill 
           className="object-cover" 

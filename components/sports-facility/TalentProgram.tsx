@@ -9,7 +9,7 @@ export function TalentProgram() {
           {/* Left image */}
           <div className="flex-shrink-0 w-full max-w-md mx-auto md:mx-0 mb-8 md:mb-0">
             <Image
-              src="/DSC_7175-scaled.webp"
+              src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_7175-scaled.webp"
               alt="Sri Sri Academy Siliguri campus"
               width={450}
               height={320}

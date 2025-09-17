@@ -1,6 +1,6 @@
 export function AcademyBadgeUI() {
-  const bgImageUrl = "DSC06548-scaled.jpg"; // Replace with your image
-  const contentImageUrl = "House-System-1024x429.webp"; // Add your content image path
+  const bgImageUrl = "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC06548-scaled.jpg"; // Replace with your image
+  const contentImageUrl = "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/House-System-1024x429.webp"; // Add your content image path
 
   return (
     <section className="relative w-full flex items-center justify-center overflow-hidden min-h-[350px] text-justify">

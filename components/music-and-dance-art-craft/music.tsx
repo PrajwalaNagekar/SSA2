@@ -9,7 +9,7 @@ export function Music() {
           {/* Left image */}
           <div className="flex-shrink-0 w-full max-w-md mx-auto md:mx-0 mb-8 md:mb-0">
             <Image
-              src="/DSC_2653-2048x1363.webp"
+              src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_2653-2048x1363.webp"
               alt="Sri Sri Academy Siliguri campus"
               width={450}
               height={320}
@@ -40,7 +40,7 @@ Our Music, Dance and Art rooms are designed aesthetically which is ideal for art
           {/* Right image */}
           <div className="flex-shrink-0 w-full max-w-md mx-auto md:mx-0 mb-8 md:mb-0">
             <Image
-              src="/dance2-582x333-1-582x332-1-500x333-1.webp" // Replace with your actual image path
+              src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/dance2-582x333-1-582x332-1-500x333-1.webp" // Replace with your actual image path
               alt="Math Laboratory at Sri Sri Academy"
               width={450}
               height={320}

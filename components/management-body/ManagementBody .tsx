@@ -4,27 +4,27 @@ import React, { useEffect, useState } from "react";
 // Replace with your actual image paths
 const management = [
   {
-    img: "magazine-11.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/magazine-11.webp",
     name: "Mr. Saroj Kumar Agarwal",
     desc: "Industrialist | Visionary | Humanitarian | Mountaineer",
   },
   {
-    img: "magazine-10.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/magazine-10.webp",
     name: "Mr. Raunak Agarwal",
     desc: "Entrepreneur | Philanthropist | Growth Catalyst | Leader",
   },
   {
-    img: "magazine-9.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/magazine-9.webp",
     name: "Mrs. Prachi Agarwal",
     desc: "Entrepreneur | Environmentalist | Patron | Digital Literacy",
   },
   {
-    img: "magazine-6.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/magazine-6.webp",
     name: "Mr. Jayant Hari Har Lal",
     desc: "Educator | Advisor | Greenfield Education Project | Key Note Speaker",
   },
   {
-    img: "magazine-8.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/magazine-8.webp",
     name: "Mr. Naresh Agarwal",
     desc: "Business Magnate | Visionary | Philanthropist | Leader | Nation Building",
   },

@@ -3,13 +3,13 @@ import { useState, useEffect, useRef } from "react";
 
 const toppers = [
   {
-    img: "/yash-x.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/yash-x.webp",
     percent: "90%",
     classType: "CLASS XII",
     name: "HIMESH AGARWAL",
   },
   {
-    img: "/himesh-xii.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/himesh-xii.webp",
     percent: "91.2%",
     classType: "CLASS X",
     name: "YASH ANAND",
@@ -21,7 +21,7 @@ const toppers = [
     name: "PRATUSH",
   },
   {
-    img: "/brishik.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/brishik.webp",
     percent: "91.2%",
     classType: "CLASS X",
     name: "YASH ANAND",

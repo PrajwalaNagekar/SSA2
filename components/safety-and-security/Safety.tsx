@@ -9,7 +9,7 @@ export function Saftey() {
           {/* Left image */}
           <div className="flex-shrink-0 w-full max-w-md mx-auto md:mx-0 mb-8 md:mb-0">
             <Image
-              src="/DSC03845-2048x1365.webp"
+              src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC03845-2048x1365.webp"
               alt="Sri Sri Academy Siliguri campus"
               width={450}
               height={320}
@@ -40,7 +40,7 @@ CCTV cameras have been deployed across the campus , at all entry – exit points
           {/* Right image */}
           <div className="flex-shrink-0 w-full max-w-md mx-auto md:mx-0 mb-8 md:mb-0">
             <Image
-              src="/DSC03846-2048x1365.webp" // Replace with your actual image path
+              src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC03846-2048x1365.webp" // Replace with your actual image path
               alt="Math Laboratory at Sri Sri Academy"
               width={450}
               height={320}

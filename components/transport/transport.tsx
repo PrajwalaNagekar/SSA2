@@ -9,7 +9,7 @@ export function Transport() {
           {/* Left image */}
           <div className="flex-shrink-0 w-full max-w-md mx-auto md:mx-0 mb-8 md:mb-0">
             <Image
-              src="/DSC07916-1024x683.webp"
+              src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC07916-1024x683.webp"
               alt="Sri Sri Academy Siliguri campus"
               width={450}
               height={320}
@@ -47,7 +47,7 @@ export function Transport() {
           {/* Right image */}
           <div className="flex-shrink-0 w-full max-w-md mx-auto md:mx-0 mb-8 md:mb-0">
             <Image
-              src="/DSC_2458-1024x681.webp" // Replace with your actual image path
+              src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_2458-1024x681.webp" // Replace with your actual image path
               alt="Math Laboratory at Sri Sri Academy"
               width={450}
               height={320}

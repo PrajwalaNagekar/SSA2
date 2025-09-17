@@ -6,14 +6,14 @@ export default function Discovery() {
     "/Photo-from-Barnali-Bhowmik26.webp",
     "/Photo-from-Barnali-Bhowmik23.webp",
     "/Photo-from-Barnali-Bhowmik12-scaled.webp",
-    "/IMG_20241124_180659-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20241124_180659-scaled.webp",
     "/Photo-from-Barnali-Bhowmik11-scaled.webp",
-    "/IMG_20241124_140731-1-scaled.webp",
-    "/IMG_20241124_124623-scaled.webp",
-    "/DSC_9797-scaled.webp",
-    "/DSC_9768-1-scaled.webp",
-    "/DSC_9766-1-scaled.webp",
-    "/DSC_9745-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20241124_140731-1-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20241124_124623-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_9797-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_9768-1-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_9766-1-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_9745-scaled.webp",
    ];
 
   // Typing animation for "Unique"

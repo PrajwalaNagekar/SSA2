@@ -16,7 +16,7 @@ export default function HomePage() {
   <SriSriEdgeHero 
   title="Tough Kids"
   subtitle=""
-  imageUrl="/Running_people_set_of_silhouettes_competition_vector_image_on_VectorStock-removebg-preview.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Running_people_set_of_silhouettes_competition_vector_image_on_VectorStock-removebg-preview.webp"
 />
 <ToughSkill/>
       <Footer />

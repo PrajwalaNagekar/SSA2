@@ -1,15 +1,15 @@
 import React from "react";
 
 const images = [
-  "/Developing-Effective-Restorative-Circles-in-Classrooms2.png", 
-  "/Developing-Effective-Restorative-Circles-in-Classrooms3.png",
-  "/Developing-Effective-Restorative-Circles-in-Classrooms4.png",
-  "/Developing-Effective-Restorative-Circles-in-Classrooms5.png",
-  "/Developing-Effective-Restorative-Circles-in-Classrooms6.png",
-  "/Developing-Effective-Restorative-Circles-in-Classrooms7.png",
-   "/Developing-Effective-Restorative-Circles-in-Classrooms8.png",
-  "/Developing-Effective-Restorative-Circles-in-Classrooms9.png",
-  "/Developing-Effective-Restorative-Circles-in-Classrooms.png",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Developing-Effective-Restorative-Circles-in-Classrooms2.png", 
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Developing-Effective-Restorative-Circles-in-Classrooms3.png",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Developing-Effective-Restorative-Circles-in-Classrooms4.png",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Developing-Effective-Restorative-Circles-in-Classrooms5.png",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Developing-Effective-Restorative-Circles-in-Classrooms6.png",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Developing-Effective-Restorative-Circles-in-Classrooms7.png",
+   "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Developing-Effective-Restorative-Circles-in-Classrooms8.png",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Developing-Effective-Restorative-Circles-in-Classrooms9.png",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Developing-Effective-Restorative-Circles-in-Classrooms.png",
 ];
 
 

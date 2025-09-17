@@ -16,7 +16,7 @@ export default function HomePage() {
       <TopBar />
       <Header />
       <SriSriEdgeHero title="Sports Facility" subtitle=" Sports are an integrated part of education. "
-      imageUrl="DSC08179-removebg-preview.webp"/>
+      imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC08179-removebg-preview.webp"/>
       <TalentProgram/>
       <SportBanner/>
       <Yoga/>

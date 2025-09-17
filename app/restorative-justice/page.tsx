@@ -17,7 +17,7 @@ export default function HomePage() {
   <SriSriEdgeHero 
   title="Restorative justice"
   subtitle=""
-  imageUrl="/Mental_health_problem_Illustration-removebg-preview.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Mental_health_problem_Illustration-removebg-preview.webp"
 />
 <Restoractive/>
       <Footer />

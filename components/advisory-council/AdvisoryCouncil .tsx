@@ -4,32 +4,32 @@ import React, { useEffect, useState } from "react";
 // Advisors array (update 'img' key with your actual local or static image paths)
 const advisors = [
   {
-    img: "magazine-2.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/magazine-2.webp",
     name: "Col Vembu Shankar",
     desc: "Indian Army Veteran Social Engineer"
   },
   {
-    img: "magazine-4.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/magazine-4.webp",
     name: "Padma Prabhu",
     desc: "Speaker Retired Teacher of Chemistry"
   },
   {
-    img: "magazine-3.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/magazine-3.webp",
     name: "Monika Ohri",
     desc: "Educational Consultant and Teacher Trainer"
   },
   {
-    img: "magazine-1.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/magazine-1.webp",
     name: "Raj Basu",
     desc: "Advisor | Environmentalist | Advisor Rural Tourism | Heritage Conservationist"
   },
   {
-    img: "magazine.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/magazine.webp",
     name: "P D Bhutia",
     desc: "Advisor | Doctor | Cardiologist | Research Organic Farming"
   },
   {
-    img: "magazine-6.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/magazine-6.webp",
     name: "Mr. Jayant Hari Har Lal",
     desc: "Educator | Generalist | Education Project | Key Note Speaker"
   }

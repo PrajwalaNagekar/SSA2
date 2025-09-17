@@ -4,7 +4,7 @@ export function PrincipalMessage() {
       className="relative min-h-screen w-full flex items-center justify-center"
       style={{
         background:
-          "url('/Copy-of-IMG_0256-scaled.jpg') center center/cover no-repeat",
+          "url('https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Copy-of-IMG_0256-scaled.jpg') center center/cover no-repeat",
       }}
     >
       {/* Purple overlay */}

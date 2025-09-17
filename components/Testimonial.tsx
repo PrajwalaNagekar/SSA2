@@ -20,10 +20,10 @@ const testimonials = [
 ];
 
 const parentTestimonials = [
-  { img: "/Screenshot-2025-08-22-202349-1024x1021.png", name: "MRS. Ranjan",  video: "/Testimonial-1.mp4" },
-  { img: "/Screenshot-2025-08-22-202738-1024x1015.png", name: "MRS. Akhil",  video: "/Testimonial-2.mp4" },
-  { img: "/Screenshot-2025-08-22-202822-1024x1015.png", name: "MRS. Ajay",  video: "/Testimonial-4-1.mp4" },
-  { img: "/Screenshot-2025-08-22-202859-1024x1016.png", name: "MRS. HEEMA",  video: "/Testimonial-8.mp4" },
+  { img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Screenshot-2025-08-22-202349-1024x1021.png", name: "MRS. Ranjan",  video: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Testimonial-1.mp4" },
+  { img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Screenshot-2025-08-22-202738-1024x1015.png", name: "MRS. Akhil",  video: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Testimonial-2.mp4" },
+  { img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Screenshot-2025-08-22-202822-1024x1015.png", name: "MRS. Ajay",  video: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Testimonial-4-1.mp4" },
+  { img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Screenshot-2025-08-22-202859-1024x1016.png", name: "MRS. HEEMA",  video: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Testimonial-8.mp4" },
 ];
 
 export function TestimonialSection() {

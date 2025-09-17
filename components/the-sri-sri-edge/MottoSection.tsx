@@ -7,7 +7,7 @@ export function MottoSection() {
         {/* Left: Logo */}
         <div className="flex-shrink-0 w-full max-w-xs mx-auto md:mx-0 flex justify-center md:justify-start pt-2">
           <Image
-            src="/Untitled_design__2_-removebg-preview.webp"
+            src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Untitled_design__2_-removebg-preview.webp"
             alt="Sri Sri Academy Logo"
             width={320}
             height={320}

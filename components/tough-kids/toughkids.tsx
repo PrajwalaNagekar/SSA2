@@ -3,16 +3,16 @@ import { useState, useEffect } from "react";
 
 export default function ToughSkill() {
   const images = [
-    "/IMG_6798-scaled.webp",
-    "/IMG_6909-scaled.webp",
-    "/IMG_6937-scaled.webp",
-    "/IMG_7127-scaled.webp",
-    "/IMG_8163-scaled.webp",
-    "/IMG_8217-scaled.webp",
-    "/IMG_8260-scaled.webp",
-    "/IMG_8376-scaled.webp",
-    "/IMG_8412-scaled.webp",
-    "/IMG_8419-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_6798-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_6909-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_6937-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_7127-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_8163-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_8217-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_8260-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_8376-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_8412-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_8419-scaled.webp",
    
     ];
 

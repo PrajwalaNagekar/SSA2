@@ -41,9 +41,9 @@ export function HeroSection() {
    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
   const videoUrls = [
-    "https://ssa.kods.in/wp-content/uploads/2025/09/VID-20241111-WA0020.mp4",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/SRI-SRI-ACADEMY_5.mp4",
     "https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028861/VID-20250916-WA0002_ysfdae.mp4",
-    "https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028857/VID-20250916-WA0004_m747wn.mp4"
+    // "https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028857/VID-20250916-WA0004_m747wn.mp4"
   ];
 
   const handleVideoEnd = () => {
@@ -64,7 +64,7 @@ export function HeroSection() {
         playsInline
         className="w-full h-full object-cover"
         onEnded={handleVideoEnd}
-        poster="https://ssa.kods.in/wp-content/uploads/2025/09/fallback-image.jpg"
+        // poster="https://ssa.kods.in/wp-content/uploads/2025/09/fallback-image.jpg"
       >
         Your browser does not support the video tag.
       </video>
@@ -139,7 +139,7 @@ export function HeroSection() {
           <Button
             size="lg"
             className="bg-[#322690] hover:bg-[#242360] text-white font-semibold rounded-md px-8 py-3 text-lg flex items-center"
-          >
+            onClick={()=>router.push("/prospectus-2025.pdf")}>
             Download Brochure
             <Download className="ml-2 w-5 h-5" />
           </Button>

@@ -4,7 +4,7 @@ import React from "react";
 // Update the images to your actual paths
 const sections = [
   {
-    img: "1-2048x1365.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/1-2048x1365.webp",
     title: "Our Teachers",
     desc: (
       <>
@@ -18,7 +18,7 @@ const sections = [
     ),
   },
   {
-    img: "DSC03975-2048x1365.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC03975-2048x1365.webp",
     title: "Administration Team",
     desc: (
       <span className="block mt-4">

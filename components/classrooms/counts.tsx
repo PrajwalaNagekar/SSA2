@@ -5,7 +5,7 @@ export function ClassroomCount() {
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center"
         style={{
-          backgroundImage: "url('/WhatsApp-Image-2024-11-13-at-1.40.34-PM.jpeg')", // Replace with your actual image path
+          backgroundImage: "url('https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-11-13-at-1.40.34-PM.jpeg')", // Replace with your actual image path
         }}
       >
         <div className="absolute inset-0  backdrop-blur-[2px]" style={{ background: "linear-gradient(180deg, #0A0118 0%, #F2295B00 100%)" }} />

@@ -9,7 +9,7 @@ const AvdnantagegSchoolTips = () => (
       </h1>
       <div className="relative mb-6">
         <img
-          src="/advantage-of-boarding-school-for-international-students-1024x555-1.webp"
+          src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/advantage-of-boarding-school-for-international-students-1024x555-1.webp"
           alt="Boarding School Tips Banner"
           className="w-full h-56 md:h-72 object-cover rounded-md"
         />
@@ -149,15 +149,15 @@ Today, there are many International students who are coming to India to get a ta
         <h3 className="text-md font-semibold mb-2">Most Recent Posts</h3>
         <ul className="space-y-4">
           <li className="flex items-center gap-3">
-            <img src="/advantage-of-boarding-school-for-international-students-1024x555-1.webp" alt="Post 1" className="w-12 h-12 object-cover rounded-md" />
+            <img src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/advantage-of-boarding-school-for-international-students-1024x555-1.webp" alt="Post 1" className="w-12 h-12 object-cover rounded-md" />
             <span className="text-sm text-gray-700 flex-1">The Advantages of Boarding School for International Students</span>
           </li>
           <li className="flex items-center gap-3">
-            <img src="/top-5-boarding-school-in-west-bengal-1.webp" alt="Post 2" className="w-12 h-12 object-cover rounded-md" />
+            <img src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/top-5-boarding-school-in-west-bengal-1.webp" alt="Post 2" className="w-12 h-12 object-cover rounded-md" />
             <span className="text-sm text-gray-700 flex-1">Top 5 Boarding Schools in West Bengal</span>
           </li>
           <li className="flex items-center gap-3">
-            <img src="/difference-between-day-school-and-residential-school.webp" alt="Post 3" className="w-12 h-12 object-cover rounded-md" />
+            <img src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/difference-between-day-school-and-residential-school.webp" alt="Post 3" className="w-12 h-12 object-cover rounded-md" />
             <span className="text-sm text-gray-700 flex-1">7 Differences Between Day School and Boarding School You Should Know</span>
           </li>
         </ul>

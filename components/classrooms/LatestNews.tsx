@@ -11,28 +11,28 @@ const LatestNews = () => {
       id: 1,
       title: "7 Differences Between",
       excerpt: "Whether we talk about the residential school or the day school, both carry some kind of differences. It is about",
-      image: "/difference-between-day-school-and-residential-school-396x360.webp",
+      image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/difference-between-day-school-and-residential-school-396x360.webp",
       url: "/7-differences-between-day-schools-and-residential-schools-you-should-know",
     },
     {
       id: 2,
       title: "Tips for Preparing",
       excerpt: "Are you looking to prepare your child for boarding school? Well, there are a number of benefits of sending your",
-      image: "/WhatsApp-Image-2025-07-03-at-13.56.12_f0545b22-1-396x360.webp",
+      image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2025-07-03-at-13.56.12_f0545b22-1-396x360.webp",
       url: "/tips-for-preparing-your-child-for-boarding-school-life",
     },
     {
       id: 3,
       title: "Top 5 Boarding",
       excerpt: "Whenever we think about a child’s education and how to engage him or her in a good environment to learn",
-      image: "/top-5-boarding-school-in-west-bengal-1.webp",
+      image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/top-5-boarding-school-in-west-bengal-1.webp",
       url:"/top-5-boarding-school-in-west-bengal",
     },
     {
       id: 4,
       title: "The Advantages of",
       excerpt: "Today, there are many International students who are coming to India to get a taste of the education here. Coming",
-      image: "/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
+      image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
       url:"/the-advantages-of-boarding-school-for-international-students",
     }
   ];

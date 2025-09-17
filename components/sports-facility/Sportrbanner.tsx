@@ -1,5 +1,5 @@
 export function SportBanner() {
-  const bgImageUrl = "DSC08210-scaled.jpg"; // Replace with your image
+  const bgImageUrl = "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC08210-scaled.jpg"; // Replace with your image
 
   return (
     <section className="relative min-h-[70vh] w-full flex items-center justify-center overflow-hidden text-justify"> {/* Reduced height */}

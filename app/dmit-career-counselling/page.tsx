@@ -15,7 +15,7 @@ export default function HomePage() {
   <SriSriEdgeHero 
   title="DMIT & Career Counselling"
   subtitle="Guiding and empowering students"
-  imageUrl="/download__1_-removebg-preview.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/download__1_-removebg-preview.webp"
     imageAlt="DMIT & Career Counselling overview"
 />
 <DMIT/>

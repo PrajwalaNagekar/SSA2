@@ -12,7 +12,7 @@ export default function HomePage() {
       <TopBar />
       <Header />
       <SriSriEdgeHero title="Hostel" subtitle=" A place where students create memories and make lifelong friends. "
-      imageUrl="hostel_bg-removebg-preview.webp"/>
+      imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/hostel_bg-removebg-preview.webp"/>
     <HostelFacility/>
     <AutoScroller/>
     <HostelFeatures/>

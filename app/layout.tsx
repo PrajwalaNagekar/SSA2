@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
        <head>
-        <link rel="icon" href="/Untitled_design__2_-removebg-preview.webp" />
+        <link rel="icon" href="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Untitled_design__2_-removebg-preview.webp" />
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}

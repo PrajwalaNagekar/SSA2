@@ -17,13 +17,13 @@ export default function HomePage() {
   <SriSriEdgeHero 
   title="House System"
   subtitle="Rooted in the balance of academic growth and holistic education"
-  imageUrl="/ce1882a8d7fad636d0dafbc422cab751-removebg-preview.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/ce1882a8d7fad636d0dafbc422cab751-removebg-preview.webp"
   imageAlt="Curriculum overview"
 />
   <ArtOfLivingSection/>
     <AcademyBadgeUI/>
 <StudentCouncil
-  imageUrl="house-system-01-1026x1536.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/house-system-01-1026x1536.webp"
   imageAlt="SHISTL RORDEWY Student Council 2024-2025"
 />
       <Footer />

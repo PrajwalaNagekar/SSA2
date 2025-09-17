@@ -18,7 +18,7 @@ export default function HomePage() {
   <SriSriEdgeHero 
   title="Discovery Trails"
   subtitle=""
-  imageUrl="/Connecting_with_Experts_Quick_Reference-removebg-preview.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Connecting_with_Experts_Quick_Reference-removebg-preview.webp"
 />
 <Discovery/>
       <Footer />

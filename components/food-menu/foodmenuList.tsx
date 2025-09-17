@@ -1,7 +1,7 @@
 export function FoodMenuList() {
   const bgImageUrl = "pexels-janetrangdoan-1092730.jpg"; // Replace with your image
-  const contentImageUrl = "summer-menu-01-scaled-1-2048x1447-1.webp"; // Add your content image path
-  const contentImageUrl1 = "winter-menu_image-scaled-1-2048x1228-1.webp"; // Add your content image path
+  const contentImageUrl = "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/summer-menu-01-scaled-1-2048x1447-1.webp"; // Add your content image path
+  const contentImageUrl1 = "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/winter-menu_image-scaled-1-2048x1228-1.webp"; // Add your content image path
   return (
     <section className="relative w-full flex items-center justify-center overflow-hidden min-h-[350px] text-justify">
       {/* Background Image */}

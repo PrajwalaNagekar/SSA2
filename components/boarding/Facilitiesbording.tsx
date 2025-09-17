@@ -4,7 +4,7 @@ import React from "react";
 // Update the images to your actual paths
 const sections = [
   {
-    img: "DSC05087-2048x1365.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC05087-2048x1365.webp",
     title: "With Diverse Facilities",
     desc: (
       <>
@@ -17,7 +17,7 @@ Here at our co-ed boarding school in West Bengal, our faculty focuses on strengt
     imagePosition: "left", // Added property to control image position
   },
   {
-    img: "Transport-3-500x300-1.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Transport-3-500x300-1.webp",
     title: "A Boarding School in West Bengal that Feels Like Home Away from Home",
     desc: (
         <>

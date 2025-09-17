@@ -9,7 +9,7 @@ export function SriSriAcademySection() {
           {/* Left image */}
           <div className="flex-shrink-0 w-full max-w-md mx-auto md:mx-0 mb-8 md:mb-0">
             <Image
-              src="/DJI_20250829165910_0062_D_DL-2048x1536.webp"
+              src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DJI_20250829165910_0062_D_DL-2048x1536.webp"
               alt="Sri Sri Academy Siliguri campus"
               width={450}
               height={320}
@@ -41,7 +41,7 @@ export function SriSriAcademySection() {
         {/* Bottom row: Centered Sri Sri Edge graphic */}
         <div className="w-full flex justify-center items-center">
           <Image
-            src="/edge.webp"
+            src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/edge.webp"
             alt="Sri Sri Edge Circular Graphic"
             width={500}
             height={220}

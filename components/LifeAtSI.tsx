@@ -105,7 +105,7 @@ export function LifeAtSI() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8 lg:mb-10">
           <div className="relative group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]">
             <img 
-              src="/DSC05056-scaled-rbnalqip8w13djxyopa38wb8hunekdunokg38ov4c8.webp" 
+              src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC05056-scaled-rbnalqip8w13djxyopa38wb8hunekdunokg38ov4c8.webp" 
               alt="Boarding facilities at Sri Sri Academy" 
               className="w-full h-48 sm:h-56 lg:h-60 object-cover transition-transform duration-300 group-hover:scale-105" 
             />
@@ -131,7 +131,7 @@ export function LifeAtSI() {
           
           <div className="relative group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02] sm:col-span-2 lg:col-span-1">
             <img 
-              src="/DSC_2255-1-scaled-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpg" 
+              src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_2255-1-scaled-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpg" 
               alt="AI technology in education" 
               className="w-full h-48 sm:h-56 lg:h-60 object-cover transition-transform duration-300 group-hover:scale-105" 
             />
@@ -159,7 +159,7 @@ export function LifeAtSI() {
               {/* Card 1 */}
               <div className="relative group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 min-w-[240px] sm:min-w-[280px] lg:min-w-[320px] flex-shrink-0">
                 <img 
-                  src="/dmit-01-1-700x650-1-raarvsd7gfdskzhd3mtlwxs08zrrkwvgvtheq4k1bs.webp" 
+                  src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/dmit-01-1-700x650-1-raarvsd7gfdskzhd3mtlwxs08zrrkwvgvtheq4k1bs.webp" 
                   alt="Career counseling services" 
                   className="w-full h-40 sm:h-48 lg:h-52 object-cover transition-transform duration-300 group-hover:scale-105" 
                 />
@@ -173,7 +173,7 @@ export function LifeAtSI() {
               {/* Card 2 */}
               <div className="relative group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 min-w-[240px] sm:min-w-[280px] lg:min-w-[320px] flex-shrink-0">
                 <img 
-                  src="/dance2-582x333-1-582x332-1-500x333-1-raarvtb1n9f2wlfzy588hfjgudn4slz77y4w7ein5k.webp" 
+                  src="https://srisriacademy1.s3.apsouth-1.amazonaws.com/public/dance2-582x333-1-582x332-1-500x333-1-raarvtb1n9f2wlfzy588hfjgudn4slz77y4w7ein5k.webp" 
                   alt="Music education and classes" 
                   className="w-full h-40 sm:h-48 lg:h-52 object-cover transition-transform duration-300 group-hover:scale-105" 
                 />
@@ -187,7 +187,7 @@ export function LifeAtSI() {
               {/* Card 3 */}
               <div className="relative group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 min-w-[240px] sm:min-w-[280px] lg:min-w-[320px] flex-shrink-0">
                 <img 
-                  src="/WhatsApp-Image-2024-11-13-at-1.40.34-PM-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpeg" 
+                  src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-11-13-at-1.40.34-PM-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpeg" 
                   alt="School infrastructure and facilities" 
                   className="w-full h-40 sm:h-48 lg:h-52 object-cover transition-transform duration-300 group-hover:scale-105" 
                 />
@@ -215,7 +215,7 @@ export function LifeAtSI() {
               {/* Card 5 */}
               <div className="relative group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 min-w-[240px] sm:min-w-[280px] lg:min-w-[320px] flex-shrink-0">
                 <img 
-                  src="/Transport-3-500x300-1-raarvtb1n9f2wlfzy588hfjgudn4slz77y4w7ein5k.webp" 
+                  src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Transport-3-500x300-1-raarvtb1n9f2wlfzy588hfjgudn4slz77y4w7ein5k.webp" 
                   alt="Student transportation services" 
                   className="w-full h-40 sm:h-48 lg:h-52 object-cover transition-transform duration-300 group-hover:scale-105" 
                 />
@@ -229,7 +229,7 @@ export function LifeAtSI() {
               {/* Card 6 */}
               <div className="relative group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 min-w-[240px] sm:min-w-[280px] lg:min-w-[320px] flex-shrink-0">
                 <img 
-                  src="/Safety-02-500x300-1-raarvtb1n9f2wlfzy588hfjgudn4slz77y4w7ein5k.webp" 
+                  src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Safety-02-500x300-1-raarvtb1n9f2wlfzy588hfjgudn4slz77y4w7ein5k.webp" 
                   alt="Safety and security measures" 
                   className="w-full h-40 sm:h-48 lg:h-52 object-cover transition-transform duration-300 group-hover:scale-105" 
                 />

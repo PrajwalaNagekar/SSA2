@@ -16,7 +16,7 @@ export default function HomePage() {
   <SriSriEdgeHero 
   title="Our Curriculum"
   subtitle="Posted in the balance of academic growth and holistic education"
-  imageUrl="/Colorfull_team___Premium_Vector-removebg-preview.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Colorfull_team___Premium_Vector-removebg-preview.webp"
   imageAlt="Curriculum overview"
 />
 

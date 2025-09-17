@@ -3,12 +3,12 @@ import { Mail, Phone, MapPin } from "lucide-react";
 // Dummy data for news
 const news = [
   {
-    image: "/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
+    image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
     title: "The Advantages of Boarding School for International Students",
     href: "#"
   },
   {
-    image: "/top-5-boarding-school-in-west-bengal-1.webp",
+    image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/top-5-boarding-school-in-west-bengal-1.webp",
     title: "Top 5 Boarding School In West Bengal",
     href: "#"
   }
@@ -31,7 +31,7 @@ export function Footer() {
   {/* Inline: Logo, Playstore, Applestore, Social Icons */}
    <div className="flex-1 flex justify-start items-center">
     <img
-      src="/Logo.webp"
+      src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Logo.webp"
       alt="Sri Sri Academy Logo"
       className="w-32 md:w-36"
     />
@@ -39,10 +39,10 @@ export function Footer() {
   {/* App Store Buttons: Center */}
   <div className="flex-1 flex justify-center items-center gap-6">
     <a href="https://play.google.com/store/apps/details?id=com.edunext.tsmv10&hl=en&gl=US" aria-label="Google Play" className="transition-transform hover:scale-105">
-      <img src="/Google_Play_Store.png" alt="Google Play" className="h-10 md:h-12" />
+      <img src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Google_Play_Store.png" alt="Google Play" className="h-10 md:h-12" />
     </a>
     <a href="https://apps.apple.com/in/app/edunext-parent/id1516241231" aria-label="App Store" className="transition-transform hover:scale-105">
-      <img src="/images-removebg-preview-1.png" alt="App Store" className="h-10 md:h-12" />
+      <img src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/images-removebg-preview-1.png" alt="App Store" className="h-10 md:h-12" />
     </a>
   </div>
   <div className="flex items-center gap-6 w-full md:w-auto justify-center md:justify-start">

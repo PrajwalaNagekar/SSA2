@@ -3,22 +3,22 @@ import { useState, useEffect } from "react";
 
 export default function GallerySection() {
   const images = [
-    "/Copy-of-IMG_0150-scaled-raarvqhkam480d245ljzf4xgheov35uwou9fxxn0qw.jpg",
-    "/Copy-of-IMG_0256-scaled-raarvu8x1y9daswnjn6hp3zauy6bxy9u1cvdv1hg20.jpg",
-    "/DSC00003-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
-    "/DSC_1913-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
-    "/DSC_2101-scaled-raarvrfehg5ibz0r03ylzmox2sk8auyn0ywxf7lmko.jpg",
-    "/DSC_2255-1-scaled-raarvqhkam480d245ljzf4xgheov35uwou9fxxn0qw.jpg",
-    "/DSC_2349-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
-    "/DSC_5577-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
-    "DSC_5656-scaled-raarvolvwy1nd54ugkqqa5ejamy4nrng0kygzdpt3c.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Copy-of-IMG_0150-scaled-raarvqhkam480d245ljzf4xgheov35uwou9fxxn0qw.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Copy-of-IMG_0256-scaled-raarvu8x1y9daswnjn6hp3zauy6bxy9u1cvdv1hg20.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC00003-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_1913-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_2101-scaled-raarvrfehg5ibz0r03ylzmox2sk8auyn0ywxf7lmko.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_2255-1-scaled-raarvqhkam480d245ljzf4xgheov35uwou9fxxn0qw.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_2349-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_5577-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_5656-scaled-raarvolvwy1nd54ugkqqa5ejamy4nrng0kygzdpt3c.jpg",
     "DSC_9768-1-scaled-raarvrfehg5ibz0r03ylzmox2sk8auyn0ywxf7lmko.jpg",
-    "IMG_0175-scaled-raarvqhkam480d245ljzf4xgheov35uwou9fxxn0qw.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_0175-scaled-raarvqhkam480d245ljzf4xgheov35uwou9fxxn0qw.jpg",
     "IMG_20240904_085003-scaled-raarvolvwy1nd54ugkqqa5ejamy4nrng0kygzdpt3c.jpg",
-    "PXL_20240825_122538212-scaled-raarvolvwy1nd54ugkqqa5ejamy4nrng0kygzdpt3c.jpg",
-    "WhatsApp-Image-2024-11-13-at-1.40.34-PM-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpeg",
-    "DSC_2255-1-scaled-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpg",
-    "/Sri-Sri-Ravi-Shankar.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/PXL_20240825_122538212-scaled-raarvolvwy1nd54ugkqqa5ejamy4nrng0kygzdpt3c.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-11-13-at-1.40.34-PM-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpeg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_2255-1-scaled-raarvqhj2rb7xrk3em0cry9328115io07k6frkmto8.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Ravi-Shankar.jpg",
   ];
 
   // Typing animation for "Unique"

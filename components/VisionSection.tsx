@@ -5,7 +5,7 @@ export function VisionSection() {
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center"
         style={{
-          backgroundImage: "url('/Sri-Sri-Ravi-Shankar_MV_Podcast_Wordpress.png')", // Replace with your actual image path
+          backgroundImage: "url('https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Ravi-Shankar_MV_Podcast_Wordpress.png')", // Replace with your actual image path
         }}
       >
         <div

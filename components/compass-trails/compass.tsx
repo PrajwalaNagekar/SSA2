@@ -3,16 +3,16 @@ import { useState, useEffect } from "react";
 
 export default function CompassGaralley() {
   const images = [
-    "/IMG_20240904_085057-1-scaled.webp",
-    "/IMG_20240904_085100-scaled.webp",
-    "/IMG_20240904_085137-scaled.webp",
-    "/IMG_20240904_085203-scaled.webp",
-    "/IMG_20240904_085206-scaled.webp",
-    "/IMG_20240904_085050-scaled.webp",
-    "/IMG_20240904_085029-scaled.webp",
-    "/IMG_20240904_085003-scaled.webp",
-    "/IMG_20240904_084947-scaled.webp",
-    "/IMG_20240904_084929-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20240904_085057-1-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20240904_085100-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20240904_085137-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20240904_085203-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20240904_085206-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20240904_085050-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20240904_085029-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20240904_085003-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20240904_084947-scaled.webp",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/IMG_20240904_084929-scaled.webp",
     ];
 
   // Typing animation for "Unique"

@@ -3,14 +3,14 @@ import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
 const BG_IMAGES = [
-  "/Copy-of-IMG_0150-scaled-raarvqhkam480d245ljzf4xgheov35uwou9fxxn0qw.jpg",
-  "/Copy-of-IMG_0256-scaled-raarvu8x1y9daswnjn6hp3zauy6bxy9u1cvdv1hg20.jpg",
-  "/DSC00003-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
-  "/DSC_1913-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
-  "/DSC_2101-scaled-raarvrfehg5ibz0r03ylzmox2sk8auyn0ywxf7lmko.jpg",
-  "/DSC_2255-1-scaled-raarvqhkam480d245ljzf4xgheov35uwou9fxxn0qw.jpg",
-  "/DSC_2349-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
-  "/DSC_5577-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Copy-of-IMG_0150-scaled-raarvqhkam480d245ljzf4xgheov35uwou9fxxn0qw.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Copy-of-IMG_0256-scaled-raarvu8x1y9daswnjn6hp3zauy6bxy9u1cvdv1hg20.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC00003-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_1913-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_2101-scaled-raarvrfehg5ibz0r03ylzmox2sk8auyn0ywxf7lmko.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_2255-1-scaled-raarvqhkam480d245ljzf4xgheov35uwou9fxxn0qw.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_2349-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_5577-scaled-raarvpjq3s2xor3hb35cun5zw0thvgr6cplygnoex4.jpg",
 ];
 
 const STATS = [
@@ -102,50 +102,50 @@ function StatsBar() {
 const newsByCategory = {
   All: [
     {
-      img: "/difference-between-day-school-and-residential-school-396x360.webp",
+      img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/difference-between-day-school-and-residential-school-396x360.webp",
       text: "7 Differences Between Day Schools and Residential Schools You Should Know",
       category: "Campus Life"
     },
     {
-      img: "/top-5-boarding-school-in-west-bengal-1.webp",
+      img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/top-5-boarding-school-in-west-bengal-1.webp",
       text: "Top 5 Boarding School In West Bengal",
       category: "Academic"
     },
     {
-      img: "/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
+      img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
       text: "The Advantages of Boarding School for International Students",
       category: "Academic"
     },
     {
-      img: "/WhatsApp-Image-2025-07-03-at-13.56.12_f0545b22-1-396x360.webp",
+      img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2025-07-03-at-13.56.12_f0545b22-1-396x360.webp",
       text: "Tips for Preparing Your Child for Boarding School Life",
       category: "Events"
     }
   ],
   Events: [
     {
-      img: "/WhatsApp-Image-2025-07-03-at-13.56.12_f0545b22-1-396x360.webp",
+      img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2025-07-03-at-13.56.12_f0545b22-1-396x360.webp",
       text: "Tips for Preparing Your Child for Boarding School Life",
       category: "Events"
     }
   ],
   "Campus Life": [
     {
-      img: "/difference-between-day-school-and-residential-school-396x360.webp",
+      img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/difference-between-day-school-and-residential-school-396x360.webp",
       text: "7 Differences Between Day Schools and Residential Schools You Should Know",
       category: "Campus Life"
     }
   ],
   Athletics: [
     {
-      img: "/top-5-boarding-school-in-west-bengal-1.webp",
+      img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/top-5-boarding-school-in-west-bengal-1.webp",
       text: "Top 5 Boarding School In West Bengal",
       category: "Athletics"
     }
   ],
   Academic: [
     {
-      img: "/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
+      img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
       text: "The Advantages of Boarding School for International Students",
       category: "Academic"
     }

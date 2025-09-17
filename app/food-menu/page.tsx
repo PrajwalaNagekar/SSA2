@@ -13,7 +13,7 @@ export default function HomePage() {
       <TopBar />
       <Header />
       <SriSriEdgeHero title="Food Menu" subtitle=" We do not permit junk food and aerated soft drinks on the campus. "
-      imageUrl="download-removebg-preview.webp"/>
+      imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/download-removebg-preview.webp"/>
     <Nutrious/>
     <FoodMenuList/>
     <AdmissionsHero/>

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const posts = [
   {
-    image: "/difference-between-day-school-and-residential-school.webp",
+    image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/difference-between-day-school-and-residential-school.webp",
     title: "7 Differences Between Day Schools and Residential Schools You Should Know",
     date: "August 6, 2025",
     comments: "No Comments",
@@ -11,7 +11,7 @@ const posts = [
     href: "/7-differences-between-day-schools-and-residential-schools-you-should-know"
   },
   {
-    image: "/WhatsApp-Image-2025-07-03-at-13.56.12_f0545b22-1.webp",
+    image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2025-07-03-at-13.56.12_f0545b22-1.webp",
     title: "Tips for Preparing Your Child for Boarding School Life",
     date: "August 5, 2025",
     comments: "No Comments",
@@ -19,7 +19,7 @@ const posts = [
     href: "/tips-for-preparing-your-child-for-boarding-school-life"
   },
   {
-    image: "/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
+    image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
     title: "The Advantages of Boarding School for International Students",
     date: "August 5, 2025",
     comments: "No Comments",
@@ -27,7 +27,7 @@ const posts = [
     href: "/the-advantages-of-boarding-school-for-international-students"
   },
   {
-    image: "/top-5-boarding-school-in-west-bengal-1.webp",
+    image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/top-5-boarding-school-in-west-bengal-1.webp",
     title: "Top 5 Boarding School In West Bengal",
     date: "August 5, 2025",
     comments: "No Comments",
@@ -38,17 +38,17 @@ const posts = [
 
 const recentPosts = [
   {
-    image: "/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
+    image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/advantage-of-boarding-school-for-international-students-1024x555-1.webp",
     title: "The Advantages of Boarding School for International Students",
     href: "/the-advantages-of-boarding-school-for-international-students"
   },
   {
-    image: "/top-5-boarding-school-in-west-bengal-1.webp",
+    image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/top-5-boarding-school-in-west-bengal-1.webp",
     title: "Top 5 Boarding School In West Bengal",
     href: "/top-5-boarding-school-in-west-bengal"
   },
   {
-    image: "/difference-between-day-school-and-residential-school.webp",
+    image: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/difference-between-day-school-and-residential-school.webp",
     title: "7 Differences Between Day Schools and Residential Schools You Should Know",
     href: "/7-differences-between-day-schools-and-residential-schools-you-should-know"
   }

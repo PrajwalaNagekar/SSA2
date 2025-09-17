@@ -14,7 +14,7 @@ const files = [
   { name: "Copy of Building Safety Certificate", link: "https://drive.google.com/file/d/1EXYQpDEXnGgOL3uTOGnaTkZuUzJ8EcNO/view" },
   { name: "Copy of Parent Teacher Association", link: "/Parent-Teacher-Association.pdf" },
   { name: "Copy of NOC", link: "https://drive.google.com/file/d/19IVMGb9TcpMmspsW7HulIcWqbro5D_-A/view" },
-  { name: "Copy of NCERT Book List", link: "/book-list.webp" },
+  { name: "Copy of NCERT Book List", link: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/book-list.webp" },
   { name: "Copy of Trust Certificate", link: "https://drive.google.com/file/d/11J4z2esZVO4kvu3mfqCA6vRaJGt-pt9O/view" },
   { name: "Copy of Sanitary & Water Health Certificate", link: "https://drive.google.com/file/d/17h5ekW5HtcMNNc4bnrAApfn7Spgis6gs/view" },
   { name: "Copy of Teaching & Non-Teaching Staff Details", link: "/Teaching-Non-Teaching-Staff-Details-.pdf" },
@@ -22,7 +22,7 @@ const files = [
   { name: "Copy of DEO Certificate (District)", link: "https://drive.google.com/file/d/1YodTD8HIC-M2zcU-qUKAe-BIaPSFutKy/view" },
   { name: "Copy of Fire Safety Certificate", link: "https://drive.google.com/file/d/1-sIBg5QTckGQD-IJEPWcBBGwWMLV8lUK/view" },
   { name: "Copy of Sample Transfer Certificate", link: "https://drive.google.com/file/d/1YegKPZcvMFYyuRzKatEeCBsJb_hQkzz9/view" },
-  { name: "Final Report-OASIS 5.0 CBSE", link: "/Final-Report-_-OASIS-5.0-CBSE-compressed.pdf" }
+  { name: "Final Report-OASIS 5.0 CBSE", link: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Final-Report-_-OASIS-5.0-CBSE-compressed.pdf" }
 ];
 
 const studentTypes = ["Day Scholar", "Day Boarder", "Hosteller"];

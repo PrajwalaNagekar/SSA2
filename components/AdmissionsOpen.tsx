@@ -19,12 +19,12 @@ export function AdmissionsOpen() {
 
   // Your image array
   const images = [
-    "/student-studying-with-lamp-at-night.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/student-studying-with-lamp-at-night.jpg",
     "/DSC_9768-1-scaled.jpg",
-    "/Sri-Sri-Ravi-Shankar.jpg",
-    "/DSC06561-scaled.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Ravi-Shankar.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC06561-scaled.jpg",
     "/IMG_20240904_085057-scaled.jpg",
-    "/WhatsApp-Image-2024-05-11-at-12.37.37-PM-1.jpeg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-05-11-at-12.37.37-PM-1.jpeg",
   ];
 
   useEffect(() => {

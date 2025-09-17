@@ -22,7 +22,7 @@ export default function HomePage() {
 />
   
 <StudentCouncil
-  imageUrl="Calendar_page-srisri-min-1085x1536.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Calendar_page-srisri-min-1085x1536.webp"
   imageAlt="Annaul Calendar 2025-2026"
   // title="School Calendar 2025-2026"
 />

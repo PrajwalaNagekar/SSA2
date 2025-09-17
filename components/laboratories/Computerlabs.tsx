@@ -1,5 +1,5 @@
 export function ComputerLabs() {
-  const bgImageUrl = "WhatsApp-Image-2024-11-13-at-1.40.34-PM.jpeg"; // Replace with your image
+  const bgImageUrl = "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/WhatsApp-Image-2024-11-13-at-1.40.34-PM.jpeg"; // Replace with your image
 
   return (
     <section className="relative min-h-[50vh] w-full flex items-center justify-center overflow-hidden text-justify">

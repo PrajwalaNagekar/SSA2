@@ -9,7 +9,7 @@ export function ArtOfLivingSection() {
           <div className="w-full flex justify-center">
             <div className="bg-white shadow-lg md:shadow-2xl rounded-lg overflow-hidden max-w-full md:max-w-[400px] lg:max-w-[500px] w-full">
               <Image
-                src="/srisri4.jpg.webp"
+                src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/srisri4.jpg.webp"
                 alt="Gurudev Sri Sri Ravi Shankar"
                 width={500}
                 height={630}

@@ -17,7 +17,7 @@ export function MilestonesSection() {
         {/* Timeline Image */}
         <div className="max-w-100 mx-auto">
           <Image
-  src="/srisri3.jpg.webp"
+  src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/srisri3.jpg.webp"
   alt="Sri Sri Ravi Shankar Key Milestones Timeline"
   width={5}      // decreased width
   height={5}     // decreased height

@@ -21,7 +21,7 @@ export default function HomePage() {
   <SriSriEdgeHero 
   title="Admission Procedure"
   subtitle="Best CBSE Boarding School in West Bengal"
-  imageUrl="/Lakeshore_Kids_Colors__Adjustable_Group_Table_-_48__x_72__-_Yellow-removebg-preview.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Lakeshore_Kids_Colors__Adjustable_Group_Table_-_48__x_72__-_Yellow-removebg-preview.webp"
   imageAlt="Admission overview"
 />
 <AdmissionsOpen/>

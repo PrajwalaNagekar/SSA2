@@ -13,7 +13,7 @@ export default function HomePage() {
       <TopBar />
       <Header />
       <SriSriEdgeHero title="Book a School Tour" subtitle=" Schedule a tour of our school by filling the form "
-      imageUrl="Collection_colored_thin_icon_of_learning_subject_book_graduated_hat_learning_and_education_concept_vector_illustration___Premium_Vector-removebg-preview.webp"/>
+      imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Collection_colored_thin_icon_of_learning_subject_book_graduated_hat_learning_and_education_concept_vector_illustration___Premium_Vector-removebg-preview.webp"/>
       <BookTour/>
       <LogoMarquee/>
       <Footer />

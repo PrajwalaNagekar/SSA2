@@ -10,7 +10,7 @@ export function Yoga() {
           {/* Right image */}
           <div className="flex-shrink-0 w-full max-w-md mx-auto md:mx-0 mb-8 md:mb-0">
             <Image
-              src="/DSC08165-scaled.webp" // Replace with your actual image path
+              src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC08165-scaled.webp" // Replace with your actual image path
               alt="Math Laboratory at Sri Sri Academy"
               width={450}
               height={320}

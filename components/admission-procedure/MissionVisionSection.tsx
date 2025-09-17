@@ -5,7 +5,7 @@ export function MissionVisionSection() {
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center"
         style={{
-          backgroundImage: "url('/Copy-of-IMG_0256-scaled.jpg')", // Replace with your actual image path
+          backgroundImage: "url('https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Copy-of-IMG_0256-scaled.jpg')", // Replace with your actual image path
         }}
       >
         <div className="absolute inset-0  backdrop-blur-[2px]" style={{ background: "linear-gradient(180deg, #0A0118 0%, #F2295B00 100%)" }} />

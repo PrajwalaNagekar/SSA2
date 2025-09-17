@@ -15,7 +15,7 @@ export default function HomePage() {
       <TopBar />
       <Header />
       <SriSriEdgeHero title="Laboratories" subtitle=" An interactive platform to the students "
-      imageUrl="robot_ai-removebg-preview.webp"/>
+      imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/robot_ai-removebg-preview.webp"/>
         <ScienceLaboratories/>
         <ComputerLabs/>
         <LanguageLab/>

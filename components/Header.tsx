@@ -24,7 +24,7 @@ export function Header() {
           <div className="flex items-center space-x-3 sm:space-x-4">
   <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full flex items-center justify-center">
     <Image
-      src="/Untitled_design__2_-removebg-preview.webp"
+      src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Untitled_design__2_-removebg-preview.webp"
       alt="Shree Swaminarayan Academy"
       width={96}   // 96px for w-24
       height={96}

@@ -3,11 +3,11 @@ import React, { useRef, useEffect, useState } from "react";
 
 const items = [
   {
-    img: "DSC_7175-scaled-rafh8i9pufbz11nnjh2z0ya8d7tehpfers1itew14o.jpg",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_7175-scaled-rafh8i9pufbz11nnjh2z0ya8d7tehpfers1itew14o.jpg",
     label: "Games",
   },
   {
-    img: "DSC_1913-scaled-raarvpjovx9xm5lgk3lq7ghmgu5nxtk9vfiyaao7ug.jpg",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC_1913-scaled-raarvpjovx9xm5lgk3lq7ghmgu5nxtk9vfiyaao7ug.jpg",
     label: "Infirmary",
   },
   {
@@ -15,7 +15,7 @@ const items = [
     label: "Nutritious Vegetarian",
   },
   {
-    img: "Safety-02-500x300-1-raarvtb1n9f2wlfzy588hfjgudn4slz77y4w7ein5k.webp",
+    img: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Safety-02-500x300-1-raarvtb1n9f2wlfzy588hfjgudn4slz77y4w7ein5k.webp",
     label: "Safety & Security",
   },
 ];

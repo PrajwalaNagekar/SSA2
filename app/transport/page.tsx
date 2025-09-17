@@ -22,7 +22,7 @@ export default function HomePage() {
   <SriSriEdgeHero 
   title="Transport"
   subtitle="A safe and secure environment"
-  imageUrl="/DSC07924-removebg-preview.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/DSC07924-removebg-preview.webp"
   imageAlt="Transport overview"
 />
 <Transport/>

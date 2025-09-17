@@ -1,38 +1,38 @@
 import React from "react";
 
 const images = [
-  "/1-1-1.webp", 
-  "/2-1-1.webp",
-  "/4-1.webp",
-  "/6-1.webp"
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/1-1-1.webp", 
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/2-1-1.webp",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/4-1.webp",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/6-1.webp"
 ];
 
 const images1 = [
-  "/little-officer4.jpeg",
-  "/little-officer5.jpeg",
-  "/little-officer6.jpeg",
-  "/little-officer7.jpeg",
-  "/little-officer8.jpeg",
-  "/little-officer9.jpeg"
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/little-officer4.jpeg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/little-officer5.jpeg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/little-officer6.jpeg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/little-officer7.jpeg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/little-officer8.jpeg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/little-officer9.jpeg"
 ];
 
  const images2 = [
-    "/20250204_150754_0001-rah1d7r7cgc257ysrx9hy7w3gmnzymouemug2brrt4.png",
-    "/20250204_150754_0002-rah1dec2oal2ehp8pi3vxo8bmbrkgieyrjeuf9i0lk.png",
-    "/20250204_150755_0003-rah1djz3tassc5h1skjncmt36mzrqp1csbbrax9nk8.png",
-    "/20250204_150755_0004-rah1dqjz551slf7hq5e1c35bcc3c8krh57w5nuzwco.png",
-    "/20250204_150755_0005-rah1dw70a59ij2zat7tsr1q2wnbjirdv5zt2jirjbc.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_150754_0001-rah1d7r7cgc257ysrx9hy7w3gmnzymouemug2brrt4.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_150754_0002-rah1dec2oal2ehp8pi3vxo8bmbrkgieyrjeuf9i0lk.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_150755_0003-rah1djz3tassc5h1skjncmt36mzrqp1csbbrax9nk8.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_150755_0004-rah1dqjz551slf7hq5e1c35bcc3c8krh57w5nuzwco.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_150755_0005-rah1dw70a59ij2zat7tsr1q2wnbjirdv5zt2jirjbc.png",
     ];
  const images3 = [
-    "/20250204_145651_0000-rah1j2b1vccadvgymg9xgqrcixu7utwpvkz7kb3l3c.png",
-    "/20250204_145651_0001-rah1j8vx76lan57ek14bg73komxscpmu8hjlx8ttvs.png",
-    "/20250204_145651_0002-rah1jfgsj0uawexuhlypfnfsuc1culcyle40a6k2o8.png",
-    "/20250204_145651_0003-rah1jl3to120u2pnkoegum0ken9k4rzcm60x5ubpmw.png",
-    "/20250204_145651_0004-rah1jqqut19qrqhgnqu89klbyyhreylqmxxu1i3clk.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_145651_0000-rah1j2b1vccadvgymg9xgqrcixu7utwpvkz7kb3l3c.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_145651_0001-rah1j8vx76lan57ek14bg73komxscpmu8hjlx8ttvs.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_145651_0002-rah1jfgsj0uawexuhlypfnfsuc1culcyle40a6k2o8.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_145651_0003-rah1jl3to120u2pnkoegum0ken9k4rzcm60x5ubpmw.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_145651_0004-rah1jqqut19qrqhgnqu89klbyyhreylqmxxu1i3clk.png",
     "/20250204_145651_0005-rah1jxbq4vir107wlbom90xk4nlbwubuzui8eftle0.png",    
-    "/20250204_145651_0006-rah1k2yr9vqgynzpoe4dnziboytj70y90mf5a3l8co.png",
-    "/20250204_145651_0005-rah1jxbq4vir107wlbom90xk4nlbwubuzui8eftle01.png",
-    "/20250204_145651_0004-rah1jqqut19qrqhgnqu89klbyyhreylqmxxu1i3clk.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_145651_0006-rah1k2yr9vqgynzpoe4dnziboytj70y90mf5a3l8co.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_145651_0005-rah1jxbq4vir107wlbom90xk4nlbwubuzui8eftle01.png",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/20250204_145651_0004-rah1jqqut19qrqhgnqu89klbyyhreylqmxxu1i3clk.png",
 ];
 
 // Custom keyframes for infinite scroll (add to global CSS, or use Tailwind plugin)

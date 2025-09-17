@@ -1,25 +1,25 @@
 import React from "react";
 
 const images = [
-  "/A-Retro-Streets-Initiative-Honoring-the-Past2.jpg", 
-  "/A-Retro-Streets-Initiative-Honoring-the-Past3.jpg",
-  "/A-Retro-Streets-Initiative-Honoring-the-Past4.jpg",
-  "/A-Retro-Streets-Initiative-Honoring-the-Past5.jpg",
-  "/A-Retro-Streets-Initiative-Honoring-the-Past.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/A-Retro-Streets-Initiative-Honoring-the-Past2.jpg", 
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/A-Retro-Streets-Initiative-Honoring-the-Past3.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/A-Retro-Streets-Initiative-Honoring-the-Past4.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/A-Retro-Streets-Initiative-Honoring-the-Past5.jpg",
+  "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/A-Retro-Streets-Initiative-Honoring-the-Past.jpg",
 ];
 
 
 
 
  const images3 = [
-    "/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race2-rah2uthv3bpq8o3qrlekn6xf0ogjx8hs3y6abeaiyw.jpg",
-    "/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race3-rah2uwbdnttl7hznb4mgco7ssu2nkbsz4c4qr86cg8.jpg",
-    "/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race4-rah2uy721hw5upwx05fphnqpzltdzq0fslfpps3k3s.jpg",
-    "/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race5-rah2v10km000tjstjonl7513rrfhmtbmsze65lzdl4.jpg",
-    "/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race6-rah2v2w8zo2lgrq38pguc4k0yj6827j3h8p545wl8o.jpg",
-    "/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race7-rah2v5prk66gfllzs8oq1lueqosbpauahmnljzseq0.jpg",    
-    "/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race8-rah2v8ja4oabefhwbrwlr34siuefce5hi0m1zto87c.jpg",
-    "/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race-rah2urm6pnn5lg6h2klbi7ehtwpthuabfovbcudbbc.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race2-rah2uthv3bpq8o3qrlekn6xf0ogjx8hs3y6abeaiyw.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race3-rah2uwbdnttl7hznb4mgco7ssu2nkbsz4c4qr86cg8.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race4-rah2uy721hw5upwx05fphnqpzltdzq0fslfpps3k3s.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race5-rah2v10km000tjstjonl7513rrfhmtbmsze65lzdl4.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race6-rah2v2w8zo2lgrq38pguc4k0yj6827j3h8p545wl8o.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race7-rah2v5prk66gfllzs8oq1lueqosbpauahmnljzseq0.jpg",    
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race8-rah2v8ja4oabefhwbrwlr34siuefce5hi0m1zto87c.jpg",
+    "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Sri-Sri-Academy-Students-Roll-into-Fun-with-an-Exciting-Tyre-Race-rah2urm6pnn5lg6h2klbi7ehtwpthuabfovbcudbbc.jpg",
 ];
 
 // Custom keyframes for infinite scroll (add to global CSS, or use Tailwind plugin)

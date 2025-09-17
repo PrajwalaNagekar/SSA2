@@ -16,7 +16,7 @@ export default function HomePage() {
   <SriSriEdgeHero 
   title="Initiatives"
   subtitle="Initiatives that go beyond academic goals."
-  imageUrl="/download-removebg-preview-1.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/download-removebg-preview-1.webp"
   imageAlt="Curriculum overview"
 />
 <SchoolActivityPage/>

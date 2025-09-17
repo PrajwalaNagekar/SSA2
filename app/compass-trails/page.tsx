@@ -19,7 +19,7 @@ export default function HomePage() {
   <SriSriEdgeHero 
   title="Compass Trails"
   subtitle=""
-  imageUrl="/Freepik___Find_the_right_plan_for_you-removebg-preview.webp"
+  imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Freepik___Find_the_right_plan_for_you-removebg-preview.webp"
 />
 <CompassGaralley/>
 

@@ -15,7 +15,7 @@ export default function HomePage() {
       <TopBar />
       <Header />
       <SriSriEdgeHero title="Classrooms" subtitle=" A welcoming and comfortable classroom at our best "
-      imageUrl="Lakeshore_Kids_Colors__Adjustable_Group_Table_-_48__x_72__-_Yellow-removebg-preview.webp"/>
+      imageUrl="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Lakeshore_Kids_Colors__Adjustable_Group_Table_-_48__x_72__-_Yellow-removebg-preview.webp"/>
 
       <Classrooms/>
 <ClassroomCount/>
