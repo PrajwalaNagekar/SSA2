@@ -173,7 +173,7 @@ export function LifeAtSI() {
               {/* Card 2 */}
               <div className="relative group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 min-w-[240px] sm:min-w-[280px] lg:min-w-[320px] flex-shrink-0">
                 <img 
-                  src="https://srisriacademy1.s3.apsouth-1.amazonaws.com/public/dance2-582x333-1-582x332-1-500x333-1-raarvtb1n9f2wlfzy588hfjgudn4slz77y4w7ein5k.webp" 
+                  src="https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/dance2-582x333-1-582x332-1-500x333-1-raarvtb1n9f2wlfzy588hfjgudn4slz77y4w7ein5k.webp" 
                   alt="Music education and classes" 
                   className="w-full h-40 sm:h-48 lg:h-52 object-cover transition-transform duration-300 group-hover:scale-105" 
                 />
