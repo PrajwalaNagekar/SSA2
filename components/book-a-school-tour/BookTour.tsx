@@ -47,12 +47,12 @@ const BookTour = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
+   emailjs
       .sendForm(
-        "service_za89i89", // your EmailJS service ID
-        "template_cy0tthm", // your EmailJS template ID
+        "service_4ka4gnl",    // your EmailJS service ID
+        "template_k9f47i7",   // your EmailJS template ID
         formRef.current,
-        "LwhTHdR9obO22jG24" // your EmailJS public key
+        "dnzJzlC0-8YrVVEqV"   // your EmailJS public key
       )
       .then(
         () => {

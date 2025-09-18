@@ -20,10 +20,10 @@ export default function AdmissionsHero() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_za89i89",    // replace with your EmailJS service ID
-        "template_283vidc",   // replace with your EmailJS template ID
+        "service_4ka4gnl",    // your EmailJS service ID
+        "template_furdhya",   // your EmailJS template ID
         formRef.current,
-        "LwhTHdR9obO22jG24"     // replace with your EmailJS public key
+        "dnzJzlC0-8YrVVEqV"   // your EmailJS public key
       )
       .then(
         (result) => {
@@ -64,57 +64,48 @@ export default function AdmissionsHero() {
           </div>
           {/* Video Card */}
           <div className="w-full max-w-md md:max-w-lg mx-auto lg:mx-0">
-            <div className="relative rounded-xl md:rounded-2xl overflow-hidden bg-gray-100 shadow-md md:shadow-lg aspect-video flex items-center justify-center group border border-gray-200">
-              {/* YouTube Video - Hidden initially */}
-              <div className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-               <video
-  src="https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028914/VID-20250916-WA0007_t9ujoo.mp4"
-  width="100%"
-  height="100%"
-  muted
-  autoPlay
-  controls
-  playsInline
-  style={{ borderRadius: '1rem', boxShadow: '0 4px 16px rgba(0,0,0,0.08)' }}
-  className="w-full h-full"
-/>
+  <div
+    className="relative rounded-xl md:rounded-2xl overflow-hidden bg-gray-100 shadow-md md:shadow-lg aspect-video flex items-center justify-center border border-gray-200"
+    tabIndex={0}
+  >
+    {/* Video: always visible */}
+    <video
+      src="https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028914/VID-20250916-WA0007_t9ujoo.mp4"
+      className="absolute inset-0 w-full h-full object-cover"
+      muted
+      playsInline
+      autoPlay
+      loop
+      controls
+    />
 
-              </div>
-              {/* Gradient Overlay - Visible initially */}
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 opacity-70 group-hover:opacity-0 transition-opacity duration-300"></div>
-              {/* Play Button - Visible initially, hides on hover */}
-              <button
-                type="button"
-                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
-                   w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center bg-white shadow-md 
-                   border border-gray-200 transition-all hover:scale-110 hover:shadow-xl group-hover:opacity-0"
-              >
-                <svg
-                  width={20}
-                  height={20}
-                  className="md:w-6 md:h-6"
-                  viewBox="0 0 48 48"
-                  fill="none"
-                >
-                  <circle
-                    cx="24"
-                    cy="24"
-                    r="22"
-                    fill="white"
-                    stroke="#ece7fd"
-                    strokeWidth="2"
-                  />
-                  <polygon points="18,16 32,24 18,32" fill="#8d3ed9" />
-                </svg>
-              </button>
-              {/* Video Label - Visible initially, hides on hover */}
-              <div className="absolute bottom-3 md:bottom-4 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-4 bg-white/90 backdrop-blur-sm px-2 py-1 md:px-3 md:py-1.5 rounded-full transition-opacity duration-300 group-hover:opacity-0">
-                <span className="text-xs md:text-sm font-medium text-gray-800">
-                  Watch Campus Tour
-                </span>
-              </div>
-            </div>
-          </div>
+    {/* Optional: Keep, fade, or remove overlay */}
+    {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 opacity-70"></div> */}
+
+    {/* Optionally hide play button and label, or just remove the group-hover opacity */}
+    {/* 
+    <button
+      type="button"
+      className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
+        w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full flex items-center justify-center bg-white shadow-md 
+        border border-gray-200 transition-all hover:scale-110 hover:shadow-xl"
+      tabIndex={-1}
+      aria-label="Play video"
+    >
+      <svg width={20} height={20} className="md:w-6 md:h-6" viewBox="0 0 48 48" fill="none">
+        <circle cx="24" cy="24" r="22" fill="white" stroke="#ece7fd" strokeWidth="2" />
+        <polygon points="18,16 32,24 18,32" fill="#8d3ed9" />
+      </svg>
+    </button>
+    <div className="absolute bottom-3 md:bottom-4 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-4 bg-white/90 backdrop-blur-sm px-2 py-1 md:px-3 md:py-1.5 rounded-full">
+      <span className="text-xs md:text-sm font-medium text-gray-800">
+        Watch Campus Tour
+      </span>
+    </div>
+    */}
+  </div>
+</div>
+
         </div>
         {/* RIGHT SIDE - FORM */}
         <div className="flex-1 flex justify-center w-full max-w-md mt-6 md:mt-0">
@@ -181,41 +172,45 @@ export default function AdmissionsHero() {
               </div>
               {/* Dropdowns */}
               <div className="space-y-3 md:space-y-4">
-                <select
-                  name="studentType"
-                  value={form.studentType}
-                  onChange={handleChange}
-                  className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
-                              focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm"
-                  required
-                >
-                  <option value="">Select Student Type</option>
-              <option value="boarding">Boarding</option>
-              <option value="dayboarding">Day Boarding</option>
-                </select>
-                <select
-                  name="grade"
-                  value={form.grade}
-                  onChange={handleChange}
-                  className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
-                              focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm"
-                  required
-                >
-                    <option value="">Select Grade Applying For</option>
-              <option value="playgroup">Play Group</option>
-              <option value="nursery">Nursery</option>
-              <option value="kg">KG</option>
-              <option value="grade1">Grade 1</option>
-              <option value="grade2">Grade 2</option>
-              <option value="grade3">Grade 3</option>
-              <option value="grade4">Grade 4</option>
-              <option value="grade5">Grade 5</option>
-              <option value="grade6">Grade 6</option>
-              <option value="grade7">Grade 7</option>
-              <option value="grade8">Grade 8</option>
-              <option value="grade9">Grade 9</option>
-                </select>
-              </div>
+  <select
+    name="studentType"
+    value={form.studentType}
+    onChange={handleChange}
+    className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
+                focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
+    required
+  >
+    <option value="">Select Student Type</option>
+    <option value="boarding">Boarding</option>
+    <option value="dayboarding">Day Boarding</option>
+  </select>
+  <select
+    name="grade"
+    value={form.grade}
+    onChange={handleChange}
+    className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
+                focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
+    required
+  >
+    <option value="">Select Grade Applying For</option>
+    <option value="playgroup">Play Group</option>
+    <option value="nursery">Nursery</option>
+    <option value="kg">KG</option>
+    <option value="grade1">Grade 1</option>
+    <option value="grade2">Grade 2</option>
+    <option value="grade3">Grade 3</option>
+    <option value="grade4">Grade 4</option>
+    <option value="grade5">Grade 5</option>
+    <option value="grade6">Grade 6</option>
+    <option value="grade7">Grade 7</option>
+    <option value="grade8">Grade 8</option>
+    <option value="grade9">Grade 9</option>
+    <option value="grade10">Grade 10</option>
+    <option value="grade11">Grade 11</option>
+    <option value="grade12">Grade 12</option>
+  </select>
+</div>
+
             </div>
             {/* Submit Button */}
             <button
