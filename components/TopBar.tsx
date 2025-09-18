@@ -44,13 +44,13 @@ function ApplicationFormModal({ closeModal }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_za89i89", // your EmailJS service ID
-        "template_283vidc", // your EmailJS template ID
-        formRef.current,
-        "LwhTHdR9obO22jG24" // your EmailJS public key
-      )
+      emailjs
+          .sendForm(
+            "service_4ka4gnl",    // your EmailJS service ID
+            "template_furdhya",   // your EmailJS template ID
+            formRef.current,
+            "dnzJzlC0-8YrVVEqV"   // your EmailJS public key
+          )
       .then(
         () => {
           alert("Application sent successfully!");
@@ -119,35 +119,45 @@ function ApplicationFormModal({ closeModal }) {
               onChange={handleChange}
             />
           </div>
-          <select
-            required
-            name="studentType"
-            className="w-full p-3 rounded bg-[#151e33] text-white"
-            value={form.studentType}
-            onChange={handleChange}
-          >
-            <option value="">- Select Student Type -</option>
-            <option value="Boarding">Boarding</option>
-            <option value="Day Boarding">Day Boarding</option>
-          </select>
-          <select
-            required
-            name="grade"
-            className="w-full p-3 rounded bg-[#151e33] text-white"
-            value={form.grade}
-            onChange={handleChange}
-          >
-            <option value="">- Please Select Grade Applying For -</option>
-            <option value="Grade 1">Grade 1</option>
-            <option value="Grade 2">Grade 2</option>
-            <option value="Grade 3">Grade 3</option>
-            <option value="Grade 4">Grade 4</option>
-            <option value="Grade 5">Grade 5</option>
-            <option value="Grade 6">Grade 6</option>
-            <option value="Grade 7">Grade 7</option>
-            <option value="Grade 8">Grade 8</option>
-            <option value="Grade 9">Grade 9</option>
-          </select>
+              <div className="space-y-3 md:space-y-4">
+  <select
+    name="studentType"
+    value={form.studentType}
+    onChange={handleChange}
+    className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
+                focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
+    required
+  >
+    <option value="">Select Student Type</option>
+    <option value="boarding">Boarding</option>
+    <option value="dayboarding">Day Boarding</option>
+  </select>
+  <select
+    name="grade"
+    value={form.grade}
+    onChange={handleChange}
+    className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
+                focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
+    required
+  >
+    <option value="">Select Grade Applying For</option>
+    <option value="playgroup">Play Group</option>
+    <option value="nursery">Nursery</option>
+    <option value="kg">KG</option>
+    <option value="Grade 1">Grade 1</option>
+    <option value="Grade 2">Grade 2</option>
+    <option value="Grade 3">Grade 3</option>
+    <option value="Grade 4">Grade 4</option>
+    <option value="Grade 5">Grade 5</option>
+    <option value="Grade 6">Grade 6</option>
+    <option value="Grade 7">Grade 7</option>
+    <option value="Grade 8">Grade 8</option>
+    <option value="Grade 9">Grade 9</option>
+    <option value="Grade 10">Grade 10</option>
+    <option value="Grade 11">Grade 11</option>
+    <option value="Grade 12">Grade 12</option>
+  </select>
+</div>
           <button
             type="submit"
             className="w-full bg-pink-400 hover:bg-pink-500 text-white font-bold py-3 rounded-full text-lg transition"

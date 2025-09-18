@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import DownloadIcon from "@mui/icons-material/CloudDownload";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
@@ -25,169 +27,238 @@ const files = [
   { name: "Final Report-OASIS 5.0 CBSE", link: "https://srisriacademy1.s3.ap-south-1.amazonaws.com/public/Final-Report-_-OASIS-5.0-CBSE-compressed.pdf" }
 ];
 
-const studentTypes = ["Day Scholar", "Day Boarder", "Hosteller"];
-const grades = [
-  "Nursery", "KG", "Grade 1", "Grade 2", "Grade 3", "Grade 4",
-  "Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9", "Grade 10", "Grade 11", "Grade 12"
-];
+const ResponsiveSchoolUI = () => {
+  const [form, setForm] = useState({
+    firstName: "",
+    phone: "",
+    email: "",
+    city: "",
+    studentType: "",
+    grade: "",
+  });
+  const [submitting, setSubmitting] = useState(false);
+  const formRef = useRef(null);
 
-const ResponsiveSchoolUI = () => (
-  <Box
-    sx={{
-      display: "flex",
-      flexDirection: { xs: "column", md: "row" },
-      p: { xs: 1, md: 4 },
-      gap: 4,
-      maxWidth: "1200px",
-      mx: "auto",
-      minHeight: "100vh",
-      background: "#fff"
-    }}
-  >
-    {/* Left file list */}
-    <Box sx={{ flex: 2, height: "100%" }}>
-      <Paper
-        elevation={1}
-        sx={{
-          p: 2,
-          mb: 2,
-          background: "#fff",
-          height: "100%",
-          display: "flex",
-          flexDirection: "column"
-        }}
-      >
-        {files.map((file, idx) => (
-          <Box
-            key={file.name}
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              py: 1,
-              borderBottom: idx === files.length - 1 ? "none" : "1px solid #eee"
-            }}
-          >
-            <a
-              href={file.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ display: "flex", alignItems: "center", textDecoration: "none", color: "#333", width: "100%" }}
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setForm((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setSubmitting(true);
+    emailjs
+      .sendForm(
+        "service_4ka4gnl",
+        "template_furdhya",
+        formRef.current,
+        "dnzJzlC0-8YrVVEqV"
+      )
+      .then(
+        () => {
+          alert("Application sent successfully!");
+          setForm({
+            firstName: "",
+            phone: "",
+            email: "",
+            city: "",
+            studentType: "",
+            grade: "",
+          });
+        },
+        () => {
+          alert("Error sending application.");
+        }
+      )
+      .finally(() => setSubmitting(false));
+  };
+
+  return (
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: { xs: "column", md: "row" },
+        p: { xs: 1, md: 4 },
+        gap: 4,
+        maxWidth: "1200px",
+        mx: "auto",
+        minHeight: "100vh",
+        background: "#fff"
+      }}
+    >
+      {/* Left file list */}
+      <Box sx={{ flex: 2, height: "100%" }}>
+        <Paper
+          elevation={1}
+          sx={{
+            p: 2,
+            mb: 2,
+            background: "#fff",
+            height: "100%",
+            display: "flex",
+            flexDirection: "column"
+          }}
+        >
+          {files.map((file, idx) => (
+            <Box
+              key={file.name}
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                py: 1,
+                borderBottom: idx === files.length - 1 ? "none" : "1px solid #eee"
+              }}
             >
-              <DownloadIcon style={{ color: "#e754ba", marginRight: "16px" }} />
-              <Typography variant="body1">{file.name}</Typography>
-            </a>
-          </Box>
-        ))}
-      </Paper>
-    </Box>
-
-    {/* Right side: Both videos stacked on top, form below */}
-    <Box sx={{ flex: 3, display: "flex", flexDirection: "column", height: "100%" }}>
-      {/* Video container: stack two iframes */}
-      <Box sx={{ display: "flex", flexDirection: "column", gap: 2, mb: 3 }}>
-        {/* <Box sx={{ width: "100%", height: "260px", mb: 2 }}>
+              <a
+                href={file.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ display: "flex", alignItems: "center", textDecoration: "none", color: "#333", width: "100%" }}
+              >
+                <DownloadIcon style={{ color: "#e754ba", marginRight: "16px" }} />
+                <Typography variant="body1">{file.name}</Typography>
+              </a>
+            </Box>
+          ))}
+        </Paper>
+      </Box>
+      {/* Right side: Video and form */}
+      <Box sx={{ flex: 3, display: "flex", flexDirection: "column", height: "100%" }}>
+        {/* Video section */}
+        <Box sx={{
+          width: '100%',
+          maxWidth: '480px',
+          height: '180px',
+          position: 'relative',
+          mb: 3,
+        }}>
           <iframe
             width="100%"
             height="100%"
             style={{ borderRadius: "20px" }}
-            src="https://www.youtube.com/embed/kQ5HnKPW_Y8"
-            title="School Promo"
+            src="https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028914/VID-20250916-WA0007_t9ujoo.mp4"
+            title="Video player"
             frameBorder="0"
-            allow="autoplay; encrypted-media"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
-        </Box> */}
-        <Box sx={{
-  width: '100%',         // Container takes full width
-  maxWidth: '480px',     // Optional max width for large screens
-  height: '180px',       // Fixed height, or use percentage for responsiveness
-  position: 'relative',
-}}>
-
-  <iframe
-    width="100%"
-    height="100%"
-    style={{ borderRadius: "20px" }}
-     src="https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028914/VID-20250916-WA0007_t9ujoo.mp4"
-    title="Video player"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerPolicy="strict-origin-when-cross-origin"
-    allowFullScreen
-  ></iframe>
-</Box>
+        </Box>
+        {/* Form section */}
+      <form
+  ref={formRef}
+  style={{
+    background: "#322478",
+    color: "#fff",
+    borderRadius: "16px",
+    padding: "24px",
+    maxWidth: "560px",
+     display: "grid",
+    gap: "16px"
+  }}
+  onSubmit={handleSubmit}
+>
+  <div style={{ display: "flex", gap: "8px" }}>
+    <input
+      name="firstName"
+      type="text"
+      value={form.firstName}
+      onChange={handleInputChange}
+      required
+      placeholder="First Name"
+      style={{ flex: 1, background: "#19213B", borderRadius: "8px", padding: "12px", color: "#fff", outline: "none", border: "none" }}
+    />
+    <input
+      name="phone"
+      type="text"
+      value={form.phone}
+      onChange={handleInputChange}
+      required
+      placeholder="Phone"
+      style={{ flex: 1, background: "#19213B", borderRadius: "8px", padding: "12px", color: "#fff", outline: "none", border: "none" }}
+    />
+  </div>
+  <div style={{ display: "flex", gap: "8px" }}>
+    <input
+      name="email"
+      type="email"
+      value={form.email}
+      onChange={handleInputChange}
+      required
+      placeholder="Email"
+      style={{ flex: 1, background: "#19213B", borderRadius: "8px", padding: "12px", color: "#fff", outline: "none", border: "none" }}
+    />
+    <input
+      name="city"
+      type="text"
+      value={form.city}
+      onChange={handleInputChange}
+      required
+      placeholder="City"
+      style={{ flex: 1, background: "#19213B", borderRadius: "8px", padding: "12px", color: "#fff", outline: "none", border: "none" }}
+    />
+  </div>
+  <div className="space-y-3 md:space-y-4">
+                <select
+                  name="studentType"
+                  value={form.studentType}
+                  onChange={handleInputChange}
+                  className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
+                                focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
+                  required
+                >
+                  <option value="">Select Student Type</option>
+                  <option value="boarding">Boarding</option>
+                  <option value="dayboarding">Day Boarding</option>
+                </select>
+                <select
+                  name="grade"
+                  value={form.grade}
+                  onChange={handleInputChange}
+                  className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
+                                focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
+                  required
+                >
+                  <option value="">Select Grade Applying For</option>
+                  <option value="playgroup">Play Group</option>
+                  <option value="nursery">Nursery</option>
+                  <option value="kg">KG</option>
+                  <option value="grade1">Grade 1</option>
+                  <option value="grade2">Grade 2</option>
+                  <option value="grade3">Grade 3</option>
+                  <option value="grade4">Grade 4</option>
+                  <option value="grade5">Grade 5</option>
+                  <option value="grade6">Grade 6</option>
+                  <option value="grade7">Grade 7</option>
+                  <option value="grade8">Grade 8</option>
+                  <option value="grade9">Grade 9</option>
+                  <option value="grade10">Grade 10</option>
+                  <option value="grade11">Grade 11</option>
+                  <option value="grade12">Grade 12</option>
+                </select>
+              </div>
+  <button
+    type="submit"
+    style={{
+      marginTop: "16px",
+      background: "#f96bb2",
+      color: "#fff",
+      fontWeight: "bold",
+      fontSize: "1rem",
+      borderRadius: "99px",
+      padding: "12px 0",
+      border: "none",
+      transition: "background 0.2s",
+      cursor: "pointer"
+    }}
+  >
+    Submit
+  </button>
+</form>
 
       </Box>
-      <Paper sx={{
-        p: 3,
-        borderRadius: 3,
-        background: "#322478",
-        color: "#fff",
-        maxWidth: 420,
-        mx: { xs: "auto", md: 0 },
-        flexShrink: 0
-      }}>
-        <Typography sx={{ mb: 1 }} variant="body2" color="#ccccee">
-          Admission Open Now
-        </Typography>
-        <Typography variant="h6" sx={{ mb: 2 }}>
-          Apply for Session 2025-26
-        </Typography>
-        <Box
-          component="form"
-          sx={{
-            display: "grid",
-            gap: 2
-          }}
-        >
-          <Box sx={{ display: "flex", gap: 1 }}>
-            <TextField variant="filled" size="small" fullWidth placeholder="First Name"
-              InputProps={{ style: { background: "#23234A", color: "#fff" } }} />
-            <TextField variant="filled" size="small" fullWidth placeholder="Phone"
-              InputProps={{ style: { background: "#23234A", color: "#fff" } }} />
-          </Box>
-          <Box sx={{ display: "flex", gap: 1 }}>
-            <TextField variant="filled" size="small" fullWidth placeholder="Email"
-              InputProps={{ style: { background: "#23234A", color: "#fff" } }} />
-            <TextField variant="filled" size="small" fullWidth placeholder="City"
-              InputProps={{ style: { background: "#23234A", color: "#fff" } }} />
-          </Box>
-          <TextField select variant="filled" size="small" fullWidth value="" defaultValue="" displayEmpty
-            InputProps={{ style: { background: "#23234A", color: "#fff" } }}>
-            <MenuItem value="" disabled>- Select Student Type -</MenuItem>
-            {studentTypes.map(type => (
-              <MenuItem key={type} value={type}>{type}</MenuItem>
-            ))}
-          </TextField>
-          <TextField select variant="filled" size="small" fullWidth value="" defaultValue="" displayEmpty
-            InputProps={{ style: { background: "#23234A", color: "#fff" } }}>
-            <MenuItem value="" disabled>- Please Select Grade Applying For -</MenuItem>
-            {grades.map(grade => (
-              <MenuItem key={grade} value={grade}>{grade}</MenuItem>
-            ))}
-          </TextField>
-          <Button
-            sx={{
-              mt: 2,
-              background: "#e754ba",
-              color: "#fff",
-              fontWeight: "bold",
-              fontSize: "1rem",
-              borderRadius: 99,
-              py: 1.2,
-              boxShadow: "none",
-              ":hover": { background: "#d143a0" }
-            }}
-            fullWidth
-            type="submit"
-            variant="contained"
-          >
-            Submit
-          </Button>
-        </Box>
-      </Paper>
     </Box>
-  </Box>
-);
+  );
+};
 
 export default ResponsiveSchoolUI;

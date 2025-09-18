@@ -229,44 +229,44 @@ export function AdmissionsOpen() {
                 />
               </div>
               <div className="space-y-3 md:space-y-4">
-  <select
-    name="studentType"
-    value={form.studentType}
-    onChange={handleChange}
-    className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
-                focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
-    required
-  >
-    <option value="">Select Student Type</option>
-    <option value="boarding">Boarding</option>
-    <option value="dayboarding">Day Boarding</option>
-  </select>
-  <select
-    name="grade"
-    value={form.grade}
-    onChange={handleChange}
-    className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
-                focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
-    required
-  >
-    <option value="">Select Grade Applying For</option>
-    <option value="playgroup">Play Group</option>
-    <option value="nursery">Nursery</option>
-    <option value="kg">KG</option>
-    <option value="grade1">Grade 1</option>
-    <option value="grade2">Grade 2</option>
-    <option value="grade3">Grade 3</option>
-    <option value="grade4">Grade 4</option>
-    <option value="grade5">Grade 5</option>
-    <option value="grade6">Grade 6</option>
-    <option value="grade7">Grade 7</option>
-    <option value="grade8">Grade 8</option>
-    <option value="grade9">Grade 9</option>
-    <option value="grade10">Grade 10</option>
-    <option value="grade11">Grade 11</option>
-    <option value="grade12">Grade 12</option>
-  </select>
-</div>
+                <select
+                  name="studentType"
+                  value={form.studentType}
+                  onChange={handleInputChange}
+                  className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
+                                focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
+                  required
+                >
+                  <option value="">Select Student Type</option>
+                  <option value="boarding">Boarding</option>
+                  <option value="dayboarding">Day Boarding</option>
+                </select>
+                <select
+                  name="grade"
+                  value={form.grade}
+                  onChange={handleInputChange}
+                  className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
+                                focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
+                  required
+                >
+                  <option value="">Select Grade Applying For</option>
+                  <option value="playgroup">Play Group</option>
+                  <option value="nursery">Nursery</option>
+                  <option value="kg">KG</option>
+                  <option value="grade1">Grade 1</option>
+                  <option value="grade2">Grade 2</option>
+                  <option value="grade3">Grade 3</option>
+                  <option value="grade4">Grade 4</option>
+                  <option value="grade5">Grade 5</option>
+                  <option value="grade6">Grade 6</option>
+                  <option value="grade7">Grade 7</option>
+                  <option value="grade8">Grade 8</option>
+                  <option value="grade9">Grade 9</option>
+                  <option value="grade10">Grade 10</option>
+                  <option value="grade11">Grade 11</option>
+                  <option value="grade12">Grade 12</option>
+                </select>
+              </div>
 
               <button
                 type="submit"
