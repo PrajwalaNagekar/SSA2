@@ -1,0 +1,1 @@
+const Icon: React.FC<{ className: string }> = ({ className }) => <i className={className}></i>;

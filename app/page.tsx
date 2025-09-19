@@ -32,6 +32,7 @@ export default function HomePage() {
       <ToppersSection/>
       <GallerySection/>
       <Footer />
+    
     </div>
   );
 }

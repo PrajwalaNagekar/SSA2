@@ -18,11 +18,23 @@ export default function AdmissionsHero() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // extra data for EmailJS template
+    const templateParams = {
+      firstName: form.firstName,
+      phone: form.phone,
+      email: form.email,
+      city: form.city,
+      studentType: form.studentType,
+      grade: form.grade,
+      subject: `Admission Application - ${form.firstName}`, // ✅ subject line
+    };
+
     emailjs
-      .sendForm(
+      .send(
         "service_4ka4gnl",    // your EmailJS service ID
         "template_furdhya",   // your EmailJS template ID
-        formRef.current,
+        templateParams,
         "dnzJzlC0-8YrVVEqV"   // your EmailJS public key
       )
       .then(
@@ -70,27 +82,27 @@ export default function AdmissionsHero() {
           </h2>
 
           {/* Video Card */}
-         <div className="w-full max-w-md md:max-w-lg mx-auto lg:mx-0">
-  <div
-    className="relative rounded-xl md:rounded-2xl overflow-hidden bg-gray-100 shadow-md md:shadow-lg aspect-video flex items-center justify-center border border-gray-200"
-    tabIndex={0}
-  >
-    {/* Video: always visible */}
-    <video
-      src="https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028914/VID-20250916-WA0007_t9ujoo.mp4"
-      className="absolute inset-0 w-full h-full object-cover"
-      muted
-      playsInline
-      autoPlay
-      loop
-      controls
-    />
+          <div className="w-full max-w-md md:max-w-lg mx-auto lg:mx-0">
+            <div
+              className="relative rounded-xl md:rounded-2xl overflow-hidden bg-gray-100 shadow-md md:shadow-lg aspect-video flex items-center justify-center border border-gray-200"
+              tabIndex={0}
+            >
+              {/* Video: always visible */}
+              <video
+                src="https://res.cloudinary.com/dsxpuytdw/video/upload/v1758028914/VID-20250916-WA0007_t9ujoo.mp4"
+                className="absolute inset-0 w-full h-full object-cover"
+                muted
+                playsInline
+                autoPlay
+                loop
+                controls
+              />
 
-    {/* Optional: Keep, fade, or remove overlay */}
-    {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 opacity-70"></div> */}
+              {/* Optional: Keep, fade, or remove overlay */}
+              {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 opacity-70"></div> */}
 
-    {/* Optionally hide play button and label, or just remove the group-hover opacity */}
-    {/* 
+              {/* Optionally hide play button and label, or just remove the group-hover opacity */}
+              {/* 
     <button
       type="button"
       className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
@@ -110,8 +122,8 @@ export default function AdmissionsHero() {
       </span>
     </div>
     */}
-  </div>
-</div>
+            </div>
+          </div>
 
         </div>
 
@@ -180,44 +192,44 @@ export default function AdmissionsHero() {
               </div>
 
               <div className="space-y-3 md:space-y-4">
-  <select
-    name="studentType"
-    value={form.studentType}
-    onChange={handleChange}
-    className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
+                <select
+                  name="studentType"
+                  value={form.studentType}
+                  onChange={handleChange}
+                  className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
                 focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
-    required
-  >
-    <option value="">Select Student Type</option>
-    <option value="boarding">Boarding</option>
-    <option value="dayboarding">Day Boarding</option>
-  </select>
-  <select
-    name="grade"
-    value={form.grade}
-    onChange={handleChange}
-    className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
+                  required
+                >
+                  <option value="">Select Student Type</option>
+                  <option value="boarding">Boarding</option>
+                  <option value="dayboarding">Day Boarding</option>
+                </select>
+                <select
+                  name="grade"
+                  value={form.grade}
+                  onChange={handleChange}
+                  className="w-full py-2.5 md:py-3 px-3 md:px-4 rounded-lg bg-[#192056] text-white 
                 focus:ring-2 focus:ring-pink-400 border-none outline-none text-sm font-serif"
-    required
-  >
-    <option value="">Select Grade Applying For</option>
-    <option value="playgroup">Play Group</option>
-    <option value="nursery">Nursery</option>
-    <option value="kg">KG</option>
-    <option value="Grade 1">Grade 1</option>
-    <option value="Grade 2">Grade 2</option>
-    <option value="Grade 3">Grade 3</option>
-    <option value="Grade 4">Grade 4</option>
-    <option value="Grade 5">Grade 5</option>
-    <option value="Grade 6">Grade 6</option>
-    <option value="Grade 7">Grade 7</option>
-    <option value="Grade 8">Grade 8</option>
-    <option value="Grade 9">Grade 9</option>
-    <option value="Grade 10">Grade 10</option>
-    <option value="Grade 11">Grade 11</option>
-    <option value="Grade 12">Grade 12</option>
-  </select>
-</div>
+                  required
+                >
+                  <option value="">Select Grade Applying For</option>
+                  <option value="playgroup">Play Group</option>
+                  <option value="nursery">Nursery</option>
+                  <option value="kg">KG</option>
+                  <option value="Grade 1">Grade 1</option>
+                  <option value="Grade 2">Grade 2</option>
+                  <option value="Grade 3">Grade 3</option>
+                  <option value="Grade 4">Grade 4</option>
+                  <option value="Grade 5">Grade 5</option>
+                  <option value="Grade 6">Grade 6</option>
+                  <option value="Grade 7">Grade 7</option>
+                  <option value="Grade 8">Grade 8</option>
+                  <option value="Grade 9">Grade 9</option>
+                  <option value="Grade 10">Grade 10</option>
+                  <option value="Grade 11">Grade 11</option>
+                  <option value="Grade 12">Grade 12</option>
+                </select>
+              </div>
 
             </div>
 
