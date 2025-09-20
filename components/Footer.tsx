@@ -32,7 +32,7 @@ export function Footer() {
     script.defer = true;
 
     // Optional: Add widget IDs (from your script)
-    script.text = "68cd2dc3c61cda54b17dbf1b,68cbf6e3bed1ce2491afe9ad";
+    script.text = "68cd33efc61cda54b17dc095,68cbf6e3bed1ce2491afe9ad";
 
     document.body.appendChild(script);
 
